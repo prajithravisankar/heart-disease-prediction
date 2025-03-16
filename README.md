@@ -68,10 +68,8 @@ heart-disease-prediction/
         - ~~what to do with outliers? not sure…~~
             - ~~(e.g., `Age` > 100, `Blood Pressure` > 200).~~
         - ~~etc~~…
-    - [ ]  **Sub-todo 2.1.2**: Handle missing values:
-        - 🆕 Use **KNNImputer** or **IterativeImputer** for advanced imputation (from the PDF).
-        - Impute with mean/median or drop rows (document your choice).
-        - etc…
+    - [x]  ~~**Sub-todo 2.1.2**: Handle missing values:~~
+        - ~~Use **KNNImputer** or **IterativeImputer** for advanced imputation~~
     - [ ]  **Sub-todo 2.1.3**: Encode categorical variables:
         - `Gender`: Male=0, Female=1.
         - `Chest Pain Type`: Use **one-hot encoding** (avoids ordinal bias, per PDF).
