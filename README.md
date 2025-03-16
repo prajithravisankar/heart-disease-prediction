@@ -61,7 +61,7 @@ heart-disease-prediction/
 
 **Goal**: Clean and preprocess the dataset.
 
-- [ ]  **Main Todo 2.1: Data Cleaning**
+- [x]  ~~**Main Todo 2.1: Data Cleaning**~~
     - [x]  ~~**Sub-todo 2.1.1**: Load `project 2.csv` and inspect for:~~
         - ~~Missing values (e.g., empty `Cholesterol` or `Blood Pressure` entries).~~
         - ~~Duplicate rows.~~
@@ -70,10 +70,8 @@ heart-disease-prediction/
         - ~~etc~~…
     - [x]  ~~**Sub-todo 2.1.2**: Handle missing values:~~
         - ~~Use **KNNImputer** or **IterativeImputer** for advanced imputation~~
-    - [ ]  **Sub-todo 2.1.3**: Encode categorical variables:
-        - `Gender`: Male=0, Female=1.
-        - `Chest Pain Type`: Use **one-hot encoding** (avoids ordinal bias, per PDF).
-        - etc…
+    - [x]  ~~**Sub-todo 2.1.3**: Encode categorical variables:~~
+        - ~~`Gender`: Male=0, Female=1.~~
 - [ ]  **Main Todo 2.2: Feature Engineering**
     - [ ]  **Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).
     - [ ]  **Sub-todo 2.2.2**: Scale numerical features:

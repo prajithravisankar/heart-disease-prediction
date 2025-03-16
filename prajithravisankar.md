@@ -30,6 +30,7 @@
 - Proceed to handle missing values in `Alcohol Intake` (Sub-Todo 2.1.2).  
 - Use advanced imputation methods like KNNImputer or IterativeImputer (per PDF requirements).  
 
+---
 
 ### Sub-Todo 2.1.2: Handle Missing Values
 **Date**: March 16  6:35 PM
@@ -46,3 +47,27 @@
 #### Why KNNImputer?
 - It uses relationships between features to estimate missing values.
 - Better than mean/median imputation for datasets with patterns.
+
+---
+
+### Sub-Todo 2.1.3: Encode Categorical Variables
+**Date**: March 16  6:50 PM
+**Performed By**: Prajith Ravisankar  
+
+#### Steps Taken:
+1. **Checked `Gender` Column**:
+   - Found that `Gender` was already one-hot encoded into a binary column named `Gender_Male`.
+   - `Gender_Male=True` represents Male, and `Gender_Male=False` represents Female.
+   - No further encoding needed for `Gender`.
+
+2. **One-Hot Encoded `Chest Pain Type`**:
+   - Used `pd.get_dummies()` to create binary columns for each category.
+   - Dropped the first category to avoid multicollinearity.
+
+3. **Handled Other Categorical Variables**:
+   - Verified that other categorical variables (e.g., `Smoking`, `Alcohol Intake`) were already one-hot encoded.
+   - No additional encoding required.
+
+#### Why This Matters:
+- Encoding ensures that machine learning models can process categorical data.
+- One-hot encoding avoids ordinal bias (per PDF requirements).
