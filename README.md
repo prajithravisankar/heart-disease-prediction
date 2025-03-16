@@ -1,17 +1,42 @@
 # heart-disease-prediction
 Predict heart disease risk using machine learning.
 
-# PROJECT STRUCTURE
+Here's a clean **project structure** for your `README.md` (formatted in Markdown):
+
+```markdown
+# Project Structure
 heart-disease-prediction/  
-├── data/  
-│   ├── raw/            # Contains project 2.csv ✔️  
-│   └── processed/      # For cleaned data  
-├── notebooks/          # For EDA and analysis  
-│   └── data_cleaning.ipynb  
-├── src/                # For preprocessing/modeling scripts  
-│   └── data_preprocessing.py  
-├── requirements.txt  
-└── README.md  
+├── **data/**  
+│   ├── **raw/**               # Raw dataset (`project 2.csv`)
+│   └── **processed/**         # Cleaned/preprocessed data (e.g., `cleaned_data.csv`)  
+├── **notebooks/**             # Jupyter notebooks for analysis  
+│   ├── `eda.ipynb`            # Exploratory Data Analysis  
+│   └── `model_training.ipynb` # Model experiments and evaluation  
+├── **src/**                   # Python scripts  
+│   ├── `data_preprocessing.py` # Data cleaning/feature engineering  
+│   ├── `train_model.py`        # Model training and tuning  
+│   └── `app.py`                # (Optional) CLI/Flask deployment if we have time
+├── **models/**                # Trained models (e.g., `random_forest.pkl`)  
+├── **results/**               # Visualizations, metrics, and reports  
+│   ├── `confusion_matrix.png`  
+│   └── `feature_importance.png`  
+├── **requirements.txt**      # Python dependencies  
+├── **README.md**             # Project overview and instructions  
+└── **OTHERS**               # MIT License (or others if we need any)  
+```
+
+### **Key Directories Explained**  
+- **`data/raw`**: Contains the original unprocessed dataset.  
+- **`data/processed`**: Stores cleaned data after preprocessing.  
+- **`notebooks`**: For exploratory analysis and model prototyping.  
+- **`src`**: Reusable Python scripts for data cleaning, modeling, and deployment.  
+- **`models`**: Saves trained models for later use.  
+- **`results`**: Stores visualizations, performance metrics, and reports.  
+
+### **Collaboration Notes**  
+- Use branches `prajith-ravisankar` and `emilio-santamaria` and `lasombra7` 
+- Merge changes into `dev` for daily collaboration after we agree on.  
+- Final stable code goes into `main` (protected branch).
 
 ### **Phase 1: Project Setup & Planning (March 13)**
 
