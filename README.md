@@ -42,19 +42,20 @@ heart-disease-prediction/
 
 **Goal**: Initialize repository, define roles, and finalize requirements.
 
-- [ ]  **Main Todo 1.1: GitHub Setup**
-    - [ ]  **Sub-todo 1.1.1**: Create a GitHub repository
-    - [ ]  **Sub-todo 1.1.2**: Creat branches:
-        - [ ]  `main`: Protected branch for final merges.
-        - [x]  `dev`: Shared development branch for daily work.
-        - [x]  `prajith-ravisankar`
+- [x]  **Main Todo 1.1: GitHub Setup**
+    - [x]  ~~**Sub-todo 1.1.1**: Create a GitHub repository~~
+    - [x]  ~~**Sub-todo 1.1.2**: Creat branches:~~
+        - [x]  ~~`main`: Protected branch for final merges.~~
+        - [x]  ~~`dev`: Shared development branch for daily work.~~
+        - [x]  ~~`prajith-ravisankar`~~
         - [ ]  `emilio-santamaria` teammate has to create their branch and confirm.
-- [ ]  **Main Todo 1.2: Requirements Finalization**
-    - [ ]  **Sub-todo 1.2.1**: Review the PDF requirements and start working on:
-        - Data cleaning steps (missing values, outliers).
-        - Models to compare (e.g., Logistic Regression, Random Forest, XGBoost).
-        - Metrics (accuracy, F1-score, AUC-ROC).
-    - [x]  **Sub-todo 1.2.2**: confirm on communication platform (we are using discord)
+        - [ ] `lasombra7` teammate has to accept the invite from Github and create their branch to start contributions
+- [x]  ~~**Main Todo 1.2: Requirements Finalization**~~
+    - [x]  ~~**Sub-todo 1.2.1**: Review the PDF requirements and start working on:~~
+        ~~- Data cleaning steps (missing values, outliers).~~
+        ~~- Models to compare (e.g., Logistic Regression, Random Forest, XGBoost).~~
+        ~~- Metrics (accuracy, F1-score, AUC-ROC).~~
+    - [x]  ~~**Sub-todo 1.2.2**: confirm on communication platform (we are using discord)~~
 
 ### **Phase 2: Data Preparation (March 14–16)**
 
