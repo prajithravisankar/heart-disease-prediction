@@ -1,6 +1,18 @@
 # heart-disease-prediction
 Predict heart disease risk using machine learning.
 
+# PROJECT STRUCTURE
+heart-disease-prediction/  
+├── data/  
+│   ├── raw/            # Contains project 2.csv ✔️  
+│   └── processed/      # For cleaned data  
+├── notebooks/          # For EDA and analysis  
+│   └── data_cleaning.ipynb  
+├── src/                # For preprocessing/modeling scripts  
+│   └── data_preprocessing.py  
+├── requirements.txt  
+└── README.md  
+
 ### **Phase 1: Project Setup & Planning (March 13)**
 
 **Goal**: Initialize repository, define roles, and finalize requirements.
