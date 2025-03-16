@@ -68,6 +68,20 @@
    - Verified that other categorical variables (e.g., `Smoking`, `Alcohol Intake`) were already one-hot encoded.
    - No additional encoding required.
 
-#### Why This Matters:
+### Sub-Todo 2.2.1 (continuation): Split Features and Target  (Please use **cleaned_data.csv** not encoded_data.csv)
+**Date**: March 16  7:30 PM
+**Performed By**: Prajith Ravisankar  
+
+**Steps Taken**:  
+1. Loaded `cleaned_data.csv` (post-imputation and encoding).  
+2. Separated features (`X`) and target (`y`).  
+3. Verified shapes:  
+   - `X` shape: (n_samples, n_features)  
+   - `y` shape: (n_samples,)  
+
+**Why This Matters**:  
+- Models require features and labels to be split for training/testing.  
+- Ensures the target variable (`Heart Disease`) is isolated from input data.
 - Encoding ensures that machine learning models can process categorical data.
 - One-hot encoding avoids ordinal bias (per PDF requirements).
+- Please use **cleaned_data.csv** not encoded_data.csv
