@@ -62,12 +62,12 @@ heart-disease-prediction/
 **Goal**: Clean and preprocess the dataset.
 
 - [ ]  **Main Todo 2.1: Data Cleaning**
-    - [ ]  **Sub-todo 2.1.1**: Load `project 2.csv` and inspect for:
-        - Missing values (e.g., empty `Cholesterol` or `Blood Pressure` entries).
-        - Duplicate rows.
-        - what to do with outliers? not sure…
-            - (e.g., `Age` > 100, `Blood Pressure` > 200).
-        - etc…
+    - [x]  ~~**Sub-todo 2.1.1**: Load `project 2.csv` and inspect for:~~
+        - ~~Missing values (e.g., empty `Cholesterol` or `Blood Pressure` entries).~~
+        - ~~Duplicate rows.~~
+        - ~~what to do with outliers? not sure…~~
+            - ~~(e.g., `Age` > 100, `Blood Pressure` > 200).~~
+        - ~~etc~~…
     - [ ]  **Sub-todo 2.1.2**: Handle missing values:
         - 🆕 Use **KNNImputer** or **IterativeImputer** for advanced imputation (from the PDF).
         - Impute with mean/median or drop rows (document your choice).

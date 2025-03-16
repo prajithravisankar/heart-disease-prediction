@@ -1,5 +1,5 @@
 ### Sub-Todo 2.1.1: Data Inspection (Outliers, Missing Values, Duplicates)
-**Date**: March 13  
+**Date**: March 16  6:00 PM
 **Performed By**: Prajith Ravisankar  
 
 #### **Steps Taken**:  
@@ -29,3 +29,20 @@
 #### **Next Steps**:  
 - Proceed to handle missing values in `Alcohol Intake` (Sub-Todo 2.1.2).  
 - Use advanced imputation methods like KNNImputer or IterativeImputer (per PDF requirements).  
+
+
+### Sub-Todo 2.1.2: Handle Missing Values
+**Date**: March 16  6:35 PM
+**Performed By**: Prajith Ravisankar  
+
+#### Steps Taken:
+1. Used **KNNImputer** to fill missing values in:
+   - `Cholesterol` (1 missing value).
+   - `Blood Pressure` (4 missing values).
+   - `Alcohol Intake` (340 missing values).
+2. Temporarily encoded categorical variables for KNNImputer.
+3. Saved the cleaned dataset to `../data/processed/cleaned_data.csv`.
+
+#### Why KNNImputer?
+- It uses relationships between features to estimate missing values.
+- Better than mean/median imputation for datasets with patterns.
