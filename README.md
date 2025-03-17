@@ -48,7 +48,7 @@ heart-disease-prediction/
         - [x]  ~~`main`: Protected branch for final merges.~~
         - [x]  ~~`dev`: Shared development branch for daily work.~~
         - [x]  ~~`prajith-ravisankar`~~
-        - [ ]  `emilio-santamaria` teammate has to create their branch and confirm.
+        - [x]   ~~`emilio santamaria`~~
         - [ ] `lasombra7` teammate has to accept the invite from Github and create their branch to start contributions
 - [x]  ~~**Main Todo 1.2: Requirements Finalization**~~
     - [x]  ~~**Sub-todo 1.2.1**: Review the PDF requirements and start working on:~~
@@ -73,9 +73,9 @@ heart-disease-prediction/
     - [x]  ~~**Sub-todo 2.1.3**: Encode categorical variables:~~
         - ~~`Gender`: Male=0, Female=1.~~
 - [ ]  **Main Todo 2.2: Feature Engineering**
-    - [ ]  **Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).
-    - [ ]  **Sub-todo 2.2.2**: Scale numerical features:
+    - [x]  **Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).
+    - [x]  **Sub-todo 2.2.2**: Scale numerical features:
         - Use **StandardScaler** (Z-score normalization) for algorithms like SVM or Logistic Regression.
-    - [ ]  **Sub-todo 2.2.3**: **Feature selection**:
+    - [x]  **Sub-todo 2.2.3**: **Feature selection**:
         - Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.
-    - [ ]  **Sub-todo 2.2.4**: Save preprocessed data as `cleaned_data.csv`.
+    - [ ]  **Sub-todo 2.2.4**: Save preprocessed data as `standardized_data.csv`.
