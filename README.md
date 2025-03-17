@@ -113,12 +113,6 @@ heart-disease-prediction/
         - Accuracy, Precision, Recall, F1-score, AUC-ROC.
     - [ ]  **Sub-todo 4.2.2**: Document results in a shared spreadsheet.
 
-**Collaboration**:
-
-- You: Train Logistic Regression and Random Forest.
-- Teammate: Train XGBoost and document results.
-- **Daily sync**: Compare model performance and plan next steps.
-
 ---
 
 ### **Phase 5: Model Optimization (March 21–22)**
@@ -133,12 +127,6 @@ heart-disease-prediction/
 - [ ]  **Main Todo 5.2: Feature Importance**
     - [ ]  **Sub-todo 5.2.1**: Plot feature importance for the best model.
     - [ ]  **Sub-todo 5.2.2**: Identify top 5 risk factors (e.g., `Cholesterol`, `Age`).
-
-**Collaboration**:
-
-- You: Optimize Random Forest.
-- Teammate: Optimize XGBoost.
-- **Merge tuned models** into `dev`.
 
 ---
 
