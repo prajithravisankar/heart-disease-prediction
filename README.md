@@ -79,3 +79,73 @@ heart-disease-prediction/
     - [ ]  **Sub-todo 2.2.3**: **Feature selection**:
         - Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.
     - [ ]  **Sub-todo 2.2.4**: Save preprocessed data as `cleaned_data.csv`.
+
+---
+
+### **Phase 3: Exploratory Data Analysis (March 16–17)**
+
+**Goal**: Generate insights and visualizations.
+
+- [ ]  **Main Todo 3.1: Univariate Analysis**
+    - [ ]  **Sub-todo 3.1.1**: Plot distributions for:
+        - `Age`, `Cholesterol`, `Blood Pressure` (histograms).
+        - `Heart Disease` (pie chart for class balance).
+    - [ ]  **Sub-todo 3.1.2**: Document observations (e.g., "30% of patients have heart disease").
+- [ ]  **Main Todo 3.2: Bivariate/Multivariate Analysis**
+    - [ ]  **Sub-todo 3.2.1**: Correlation heatmap (features vs. `Heart Disease`).
+    - [ ]  **Sub-todo 3.2.2**: Boxplots for `Cholesterol` vs. `Heart Disease`.
+    - [ ]  **Sub-todo 3.2.3**: Pairplot for key features (e.g., `Age`, `Blood Pressure`).
+
+---
+
+### **Phase 4: Model Development (March 18–20)**
+
+**Goal**: Train and compare baseline models.
+
+- [ ]  **Main Todo 4.1: Model Training**
+    - [ ]  **Sub-todo 4.1.1**: Train 3 models:
+        - Logistic Regression.
+        - Random Forest.
+        - XGBoost.
+    - [ ]  **Sub-todo 4.1.2**: Use `train_test_split` (80-20 split).
+- [ ]  **Main Todo 4.2: Baseline Evaluation**
+    - [ ]  **Sub-todo 4.2.1**: Calculate metrics:
+        - Accuracy, Precision, Recall, F1-score, AUC-ROC.
+    - [ ]  **Sub-todo 4.2.2**: Document results in a shared spreadsheet.
+
+**Collaboration**:
+
+- You: Train Logistic Regression and Random Forest.
+- Teammate: Train XGBoost and document results.
+- **Daily sync**: Compare model performance and plan next steps.
+
+---
+
+### **Phase 5: Model Optimization (March 21–22)**
+
+**Goal**: Improve model performance.
+
+- [ ]  **Main Todo 5.1: Hyperparameter Tuning**
+    - [ ]  **Sub-todo 5.1.1**: Use `GridSearchCV` or `RandomizedSearchCV` for:
+        - Random Forest (tune `n_estimators`, `max_depth`).
+        - XGBoost (tune `learning_rate`, `max_depth`).
+    - [ ]  **Sub-todo 5.1.2**: Re-evaluate metrics post-tuning.
+- [ ]  **Main Todo 5.2: Feature Importance**
+    - [ ]  **Sub-todo 5.2.1**: Plot feature importance for the best model.
+    - [ ]  **Sub-todo 5.2.2**: Identify top 5 risk factors (e.g., `Cholesterol`, `Age`).
+
+**Collaboration**:
+
+- You: Optimize Random Forest.
+- Teammate: Optimize XGBoost.
+- **Merge tuned models** into `dev`.
+
+---
+
+### **Phase 6: Deployment & Documentation (March 23)**
+
+**Goal**: Prepare a simple deployment and final report.
+
+- [ ]  **Main Todo 6.1: Deployment**
+    - [ ]  **Sub-todo 6.1.1**: Create a `predict()` function for new data.
+    - [ ]  **Sub-todo 6.1.2**: Build a basic CLI or Flask app for predictions.
