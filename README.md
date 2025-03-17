@@ -73,9 +73,9 @@ heart-disease-prediction/
     - [x]  ~~**Sub-todo 2.1.3**: Encode categorical variables:~~
         - ~~`Gender`: Male=0, Female=1.~~
 - [ ]  **Main Todo 2.2: Feature Engineering**
-    - [x]  **Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).
-    - [x]  **Sub-todo 2.2.2**: Scale numerical features:
-        - Use **StandardScaler** (Z-score normalization) for algorithms like SVM or Logistic Regression.
-    - [x]  **Sub-todo 2.2.3**: **Feature selection**:
-        - Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.
-    - [ ]  **Sub-todo 2.2.4**: Save preprocessed data as `standardized_data.csv`.
+    - [x]  ~~**Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).~~
+    - [x]  ~~**Sub-todo 2.2.2**: Scale numerical features:~~
+        - ~~Use **StandardScaler** (Z-score normalization) for algorithms like SVM or Logistic Regression.~~
+    - [x]  ~~**Sub-todo 2.2.3**: **Feature selection**:~~
+        - ~~Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.~~
+    - [x] ~~ **Sub-todo 2.2.4**: Save preprocessed data as `standardized_data.csv`.~~
