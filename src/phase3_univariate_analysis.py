@@ -5,9 +5,6 @@ Purpose:
 - Create histograms for key features (Age, Cholesterol, Blood Pressure)
 - Create pie chart showing class distribution of heart disease
 - Save visualizations to 'results/' folder
-
-Author: [Your Name]
-Date: [Date]
 """
 
 # =============================================
@@ -182,18 +179,6 @@ plt.savefig(
 # Clear pie chart from memory
 plt.close()
 
-
-"""
-Expanded Univariate Analysis Script for Heart Disease Prediction
-
-Purpose:
-- Analyze distributions of all relevant features
-- Identify potential patterns in both numerical and categorical variables
-- Save visualizations to 'results/' folder
-
-Author: [Your Name]
-Date: [Date]
-"""
 
 # =============================================
 #  CREATE HISTOGRAMS FOR ALL NUMERICAL FEATURES
