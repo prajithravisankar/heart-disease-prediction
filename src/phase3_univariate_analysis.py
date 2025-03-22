@@ -35,7 +35,7 @@ sns.set_theme(
 try:
     # Load preprocessed data from CSV file
     # We're using relative path: data/processed/standardized_data.csv
-    heart_data = pd.read_csv("/Users/prajithravisankar/Documents/lakehead/bigData/project/heart-disease-prediction/data/processed/standardized_data.csv")
+    heart_data = pd.read_csv("data/processed/standardized_data.csv")
     
     # Quick check: Show first 3 rows to verify proper loading
     print("\nFirst 3 rows of dataset:")
