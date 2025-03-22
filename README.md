@@ -79,3 +79,21 @@ heart-disease-prediction/
     - [x]  ~~**Sub-todo 2.2.3**: **Feature selection**:~~
         - ~~Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.~~
     - [x] ~~ **Sub-todo 2.2.4**: Save preprocessed data as `standardized_data.csv`.~~
+
+---
+
+### **Phase 3: Exploratory Data Analysis (March 16–17)**
+
+**Goal**: Generate insights and visualizations.
+
+- [ ]  **Main Todo 3.1: Univariate Analysis**
+    - [ ]  **Sub-todo 3.1.1**: Plot distributions for:
+        - `Age`, `Cholesterol`, `Blood Pressure` (histograms).
+        - `Heart Disease` (pie chart for class balance).
+    - [ ]  **Sub-todo 3.1.2**: Document observations (e.g., "30% of patients have heart disease").
+- [ ]  **Main Todo 3.2: Bivariate/Multivariate Analysis**
+    - [ ]  **Sub-todo 3.2.1**: Correlation heatmap (features vs. `Heart Disease`).
+    - [ ]  **Sub-todo 3.2.2**: Boxplots for `Cholesterol` vs. `Heart Disease`.
+    - [ ]  **Sub-todo 3.2.3**: Pairplot for key features (e.g., `Age`, `Blood Pressure`).
+
+---
