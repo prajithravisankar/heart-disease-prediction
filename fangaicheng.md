@@ -1,5 +1,5 @@
 Phase 3: Exploratory Data Analysis (EDA)  
-Date: March 18, 11：00PM Performed By: Fangai Cheng
+Date: March 20, 11：00PM Performed By: Fangai Cheng
 
 Main Todo 3.1: Univariate Analysis  
 Sub-todo 3.1.1: Plot Distributions for:
