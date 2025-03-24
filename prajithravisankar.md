@@ -85,3 +85,54 @@
 - Encoding ensures that machine learning models can process categorical data.
 - One-hot encoding avoids ordinal bias (per PDF requirements).
 - Please use **cleaned_data.csv** not encoded_data.csv
+
+---
+
+# Phase 3: Exploratory Data Analysis (March 16–22, 2025)
+
+## Sub-Todo 3.1.1: Expanded Univariate Analysis
+**Date**: March 16–21, 2025  
+**Performed By**: Prajith Ravisankar  
+
+### Key Analyses Performed:
+1. **Numerical Feature Distributions**:
+   - Created histograms for all 7 numerical features:
+     - Age, Cholesterol, Blood Pressure  
+     - Heart Rate, Exercise Hours  
+     - Stress Level, Blood Sugar  
+   - Used Z-score normalized values from `standardized_data.csv`
+   - Key Insight: All features show near-normal distribution post-standardization
+
+2. **Categorical/Dummy Variable Analysis**:
+   - Generated bar plots for 11 categorical features:
+     ```python
+     ["Gender_Male", "Smoking_Former", "Smoking_Never", 
+      "Alcohol Intake_Moderate", "Family History_Yes",
+      "Diabetes_Yes", "Obesity_Yes", "Exercise Induced Angina_Yes",
+      "Chest Pain Type_Atypical Angina", 
+      "Chest Pain Type_Non-anginal Pain",
+      "Chest Pain Type_Typical Angina"]
+     ```
+   - Added percentage labels for easier interpretation
+
+3. **Enhanced Target Analysis**:
+   - Combined visualization showing:
+     - Class distribution pie chart (52.3% Heart Disease)
+     - Blood Pressure vs Heart Disease boxplot
+   - Key Finding: Higher BP correlates with heart disease presence
+
+4. **Additional Insights**:
+   - Stress Level Distribution by Gender (violin plot)
+   - Cholesterol vs Diabetes Status (boxen plot)
+
+#### Generated Visualizations is in results folder
+``` markdown
+results/categorical_features_distributions.png
+results/cholesterol_diabetes.png
+results/class_balance.png
+results/feature_distributions.png
+results/numerical_features_distributions.png
+results/stress_by_gender.png
+results/target_analysis.png
+```
+---
