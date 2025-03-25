@@ -9,7 +9,6 @@ Sub-todo 3.1.1: Plot Distributions for:
 Sub-todo 3.1.2: Document observations
 - Example: *"30% of patients have heart disease."*
 
-
 Main Todo 3.2: Bivariate/Multivariate Analysis  
 Sub-todo 3.2.1: Correlation Heatmap  
 - Visualizing correlation between features and **Heart Disease**  
@@ -19,3 +18,12 @@ Cholesterol vs. Heart Disease**
 
 Sub-todo 3.2.3: Pairplot  
 - **Key features** (e.g., Age, Blood Pressure)
+Result: 
+
+Phase 4: Model Development (March 18–20)
+Goal: Train and compare baseline models.
+
+Main Todo 4.1: Model Training
+Sub-todo 4.1.1: Train 3 models:
+- Logistic Regression.
+- Random Forest.
