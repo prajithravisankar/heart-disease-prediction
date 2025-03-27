@@ -34,13 +34,12 @@ Classification Report:
 
            0       0.87      0.92      0.89       122
            1       0.86      0.78      0.82        78
-
     accuracy                           0.86       200
    macro avg       0.86      0.85      0.86       200
 weighted avg       0.86      0.86      0.86       200
 
 Confusion Matrix:
- [[112  10]
+ [[112  10] \n
  [ 17  61]]
 AUC-ROC: 0.9508196721311475
 
@@ -51,7 +50,6 @@ Classification Report:
 
            0       0.99      1.00      1.00       122
            1       1.00      0.99      0.99        78
-
     accuracy                           0.99       200
    macro avg       1.00      0.99      0.99       200
 weighted avg       1.00      0.99      0.99       200
