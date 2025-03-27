@@ -136,3 +136,67 @@ results/stress_by_gender.png
 results/target_analysis.png
 ```
 ---
+
+### Phase 4: Data Cleaning & Model Implementation Report  (XGboost)
+**Date**: March 26 10:00 PM  
+**Performed By**: Prajith Ravisankar  
+
+---
+
+### **File 1: data_cleaning.py**  
+**Purpose**: Raw data preprocessing pipeline  
+
+#### **Key Functions**:  
+1. `load_and_clean_data()`:  
+   - **Input**: `project 2.csv` (raw data)  
+   - **Operations**:  
+     - Removed 0 duplicates  
+     - Imputed 340 missing `Alcohol Intake` values with KNNImputer (k=5 neighbors)  
+     - Encoded 8 categorical features using LabelEncoder  
+     - Clipped outliers via IQR method (1.5x bounds) for all numeric columns  
+   - **Output**: `cleaned_data.csv`  
+
+2. `save_cleaned_data()`:  
+   - Saves processed data to `/data/processed`  
+
+#### **Problems Faced**:  
+- High missing values (340) in `Alcohol Intake` - Risk of biased imputation  
+- All categorical features encoded as ordinal (may not reflect true relationships)  
+- No outliers detected - Possible over-clipping of natural variation  
+
+---
+
+### **File 2: feature_engineering.py**  
+**Purpose**: Feature transformation & selection  
+
+#### **Key Functions**:  
+1. `engineer_features()`:  
+   - StandardScaler applied to 15 features  
+   - Selected top 8 features via ANOVA F-test (`SelectKBest`)  
+   - Final Features: Age, Gender, Cholesterol, Alcohol Intake, Family History, Diabetes, Obesity, Chest Pain Type  
+
+2. `split_data()`:  
+   - 80/20 stratified split (800/200 samples)  
+   - Preserved class distribution in splits  
+
+#### **Problems Faced**:  
+- Feature selection only used univariate methods (missed multivariate interactions)  
+- No creation of derived features (e.g., BMI, BP ratios)  
+- Target leakage risk with full-dataset scaling  
+
+---
+
+### **File 3: xboost_training.py**  
+**Purpose**: Model training & evaluation  
+
+#### **Key Components**:  
+1. Hyperparameter Tuning:  
+   - GridSearchCV with 243 combinations  
+   - Best Params: `{'colsample_bytree': 0.6, 'learning_rate': 0.3, 'max_depth': 3}`  
+
+2. Evaluation Metrics:  
+   ```python
+   Accuracy: 0.5650  # Barely better than random
+   Precision: 0.4328  # High false positives
+   Recall: 0.3718     # Misses 63% of true cases
+   AUC-ROC: 0.5269    # Minimal discrimination power
