@@ -46,3 +46,17 @@ AUC-ROC: 0.9508196721311475
 
 
 Output for Random Forest:
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       122
+           1       1.00      0.99      0.99        78
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.99      0.99       200
+weighted avg       1.00      0.99      0.99       200
+
+Confusion Matrix:
+ [[122   0]
+ [  1  77]]
+AUC-ROC: 1.0
