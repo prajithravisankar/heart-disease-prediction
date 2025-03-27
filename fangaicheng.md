@@ -42,7 +42,7 @@ weighted avg       0.86      0.86      0.86       200
 Confusion Matrix:
  [[112  10]
  [ 17  61]]
-AUC Score: 0.9508196721311475
+AUC-ROC: 0.9508196721311475
 
 
 Output for Random Forest:
