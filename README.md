@@ -49,7 +49,7 @@ heart-disease-prediction/
         - [x]  ~~`dev`: Shared development branch for daily work.~~
         - [x]  ~~`prajith-ravisankar`~~
         - [ ]  `emilio-santamaria` teammate has to create their branch and confirm.
-        - [x] `lasombra7` teammate has to accept the invite from Github and create their branch to start contributions
+        - [x] ~~`lasombra7` teammate has to accept the invite from Github and create their branch to start contributions~~
 - [x]  ~~**Main Todo 1.2: Requirements Finalization**~~
     - [x]  ~~**Sub-todo 1.2.1**: Review the PDF requirements and start working on:~~
         ~~- Data cleaning steps (missing values, outliers).~~
@@ -102,16 +102,16 @@ heart-disease-prediction/
 
 **Goal**: Train and compare baseline models.
 
-- [x]  **Main Todo 4.1: Model Training**
-    - [x]  **Sub-todo 4.1.1**: Train 3 models:
-        - Logistic Regression.
-        - Random Forest.
-        - XGBoost.
-    - [x]  **Sub-todo 4.1.2**: Use `train_test_split` (80-20 split).
-- [x]  **Main Todo 4.2: Baseline Evaluation**
-    - [x]  **Sub-todo 4.2.1**: Calculate metrics:
-        - Accuracy, Precision, Recall, F1-score, AUC-ROC.
-    - [x]  **Sub-todo 4.2.2**: Document results in a shared spreadsheet.
+- [x]  ~~**Main Todo 4.1: Model Training**~~
+    - [x]  ~~**Sub-todo 4.1.1**: Train 3 models:~~
+        - ~~Logistic Regression.~~
+        - ~~Random Forest.~~
+        - ~~XGBoost.~~
+    - [x]  ~~**Sub-todo 4.1.2**: Use `train_test_split` (80-20 split).~~
+- [x]  ~~**Main Todo 4.2: Baseline Evaluation**~~
+    - [x]  ~~**Sub-todo 4.2.1**: Calculate metrics:~~
+        - ~~* Accuracy, Precision, Recall, F1-score, AUC-ROC.~~
+    - [x]  ~~**Sub-todo 4.2.2**: Document results in a shared spreadsheet.~~
 
 ---
 
