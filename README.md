@@ -102,16 +102,16 @@ heart-disease-prediction/
 
 **Goal**: Train and compare baseline models.
 
-- [ ]  **Main Todo 4.1: Model Training**
-    - [ ]  **Sub-todo 4.1.1**: Train 3 models:
+- [x]  **Main Todo 4.1: Model Training**
+    - [x]  **Sub-todo 4.1.1**: Train 3 models:
         - Logistic Regression.
         - Random Forest.
         - XGBoost.
-    - [ ]  **Sub-todo 4.1.2**: Use `train_test_split` (80-20 split).
-- [ ]  **Main Todo 4.2: Baseline Evaluation**
-    - [ ]  **Sub-todo 4.2.1**: Calculate metrics:
+    - [x]  **Sub-todo 4.1.2**: Use `train_test_split` (80-20 split).
+- [x]  **Main Todo 4.2: Baseline Evaluation**
+    - [x]  **Sub-todo 4.2.1**: Calculate metrics:
         - Accuracy, Precision, Recall, F1-score, AUC-ROC.
-    - [ ]  **Sub-todo 4.2.2**: Document results in a shared spreadsheet.
+    - [x]  **Sub-todo 4.2.2**: Document results in a shared spreadsheet.
 
 ---
 
