@@ -200,3 +200,82 @@ results/target_analysis.png
    Precision: 0.4328  # High false positives
    Recall: 0.3718     # Misses 63% of true cases
    AUC-ROC: 0.5269    # Minimal discrimination power
+   
+---
+
+The discrepancies in model performance between the Jupyter notebooks and Python scripts arise from differences in data preprocessing steps, leading to **data leakage** and **incorrect handling of categorical variables** in the notebooks. Here's a breakdown:
+
+---
+
+### **1. Data Cleaning Differences**
+#### **Jupyter Notebook (`data_cleaning.ipynb`):**
+- **Imputation on One-Hot Encoded Features**:
+  - After one-hot encoding categorical variables, `KNNImputer` was applied to the entire dataset (including encoded binary columns). This introduced non-binary values (e.g., 0.8 for a "Gender_Male" column), which is invalid and adds noise.
+- **Data Leakage**:
+  - Imputation and encoding were done **before** splitting into train/test sets. Test data influenced the imputation process, leaking information into training.
+
+#### **Python Script (`data_cleaning.py`):**
+- **Correct Categorical Handling**:
+  - Categorical variables were label-encoded after filling missing values with "Unknown," avoiding invalid imputation.
+  - Numerical imputation used `KNNImputer` only on numerical columns, preserving categorical integrity.
+- **Outlier Clipping**:
+  - Outliers were clipped using IQR, making the data more robust.
+
+---
+
+### **2. Feature Engineering Differences**
+#### **Jupyter Notebook (`feature_engineering.ipynb`):**
+- **Correct Scaling/Splitting**:
+  - Data was split into train/test first. `StandardScaler` and feature selection (SelectKBest/RFE) were applied **only on the training data**, preventing leakage during these steps.
+- **But...**:
+  - The prior imputation on the full dataset already caused leakage, leading the model to overfit.
+
+#### **Python Script (`feature_engineering.py`):**
+- **Incorrect Scaling/Splitting**:
+  - `StandardScaler` and `SelectKBest` were applied to the **entire dataset** before splitting, causing leakage. However, this was offset by:
+    - Better handling of categorical variables (no invalid imputation).
+    - Outlier clipping, which improved generalization.
+
+---
+
+### **Why Python Scripts Performed Better**
+1. **Valid Categorical Features**:
+   - Avoided corrupting one-hot encoded columns with `KNNImputer`, preserving meaningful categorical values.
+2. **Outlier Mitigation**:
+   - Clipping outliers reduced overfitting to extreme values.
+3. **Less Severe Leakage**:
+   - Despite scaling/feature selection leakage, the cleaner data structure allowed the model to generalize better than the noise-intense notebook data.
+
+---
+
+### **Critical Fixes Needed**
+To resolve data leakage and improve results:
+1. **Split Data First**:
+   - Split into train/test **before** any preprocessing (imputation, encoding, scaling).
+2. **Avoid Imputing One-Hot Encoded Features**:
+   - Handle missing categorical values before encoding (e.g., fill with "Unknown").
+3. **Use Pipelines**:
+   - Encapsulate preprocessing steps within pipelines to ensure transformations are applied only to training data.
+
+---
+
+### **Summary of Key Issues**
+| Step                | Jupyter Notebook Issues                                                                 | Python Script Improvements                                                                 |
+|---------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Imputation**      | Applied `KNNImputer` to one-hot encoded features (invalid values). Leakage from full-dataset imputation. | Correctly imputed only numerical columns. Categorical missing values handled before encoding. |
+| **Categorical**     | One-hot encoded + invalid imputation → noisy features.                                  | Label encoding after filling missing values → clean categorical features.                  |
+| **Outliers**        | Detected but not handled.                                                               | Clipped outliers using IQR → robust data.                                                  |
+| **Scaling/Selection** | Correctly applied post-split (no leakage here).                                         | Incorrectly applied pre-split (leakage), but cleaner data offset this.                     |
+
+---
+
+### **Recommendations**
+1. **Refactor Notebooks**:
+   - Use `sklearn.pipeline.Pipeline` to ensure no data leakage.
+   - Split data **before** imputation/encoding.
+2. **Avoid Mixing Data**:
+   - Never preprocess the entire dataset before splitting. Always use `fit_transform` on training data and `transform` on test data.
+3. **Validate Feature Engineering**:
+   - Ensure categorical variables are not treated as numerical during imputation.
+
+By addressing these issues, you can eliminate leakage and achieve reliable model performance.
