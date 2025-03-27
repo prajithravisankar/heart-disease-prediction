@@ -49,7 +49,7 @@ heart-disease-prediction/
         - [x]  ~~`dev`: Shared development branch for daily work.~~
         - [x]  ~~`prajith-ravisankar`~~
         - [ ]  `emilio-santamaria` teammate has to create their branch and confirm.
-        - [ ] `lasombra7` teammate has to accept the invite from Github and create their branch to start contributions
+        - [x] `lasombra7` teammate has to accept the invite from Github and create their branch to start contributions
 - [x]  ~~**Main Todo 1.2: Requirements Finalization**~~
     - [x]  ~~**Sub-todo 1.2.1**: Review the PDF requirements and start working on:~~
         ~~- Data cleaning steps (missing values, outliers).~~
