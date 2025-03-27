@@ -27,3 +27,22 @@ Main Todo 4.1: Model Training
 Sub-todo 4.1.1: Train 3 models:
 - Logistic Regression.
 - Random Forest.
+
+Output for Logistic Regression:
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.87      0.92      0.89       122
+           1       0.86      0.78      0.82        78
+
+    accuracy                           0.86       200
+   macro avg       0.86      0.85      0.86       200
+weighted avg       0.86      0.86      0.86       200
+
+Confusion Matrix:
+ [[112  10]
+ [ 17  61]]
+AUC Score: 0.9508196721311475
+
+
+Output for Random Forest:
