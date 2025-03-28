@@ -1,0 +1,16 @@
+Feature,Importance
+Age,0.24984545
+Chol_Desirable,0.18185033
+Cholesterol,0.14765143
+Age_BP_Interaction,0.12098335
+Age_Group_Middle Aged,0.07646113
+Age_Group_Young Adult,0.064796776
+Age_Group_Senior,0.053267695
+Chol_Borderline,0.04760816
+Chol_High,0.030983387
+Age_Group_Elderly,0.022956805
+Blood Pressure,0.0035955308
+Chol_BP_Interaction,0.0
+Alcohol Intake_Moderate,0.0
+Smoking_Former,0.0
+Gender_Male,0.0

@@ -1,0 +1,15 @@
+Age
+Cholesterol
+Age_BP_Interaction
+Chol_High
+Chol_Desirable
+Age_Group_Elderly
+Age_Group_Senior
+Age_Group_Middle Aged
+Age_Group_Young Adult
+Chol_BP_Interaction
+Chol_Borderline
+Blood Pressure
+Smoking_Former
+Exercise Hours
+Alcohol Intake_Moderate
