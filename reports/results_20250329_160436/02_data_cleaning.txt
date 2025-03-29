@@ -1,0 +1,25 @@
+Missing values per column:
+                Missing Values  Percentage
+Cholesterol                  1         0.1
+Blood Pressure               4         0.4
+Alcohol Intake             340        34.0
+
+Missing values after handling:
+Age                        0
+Gender                     0
+Cholesterol                0
+Blood Pressure             0
+Heart Rate                 0
+Smoking                    0
+Alcohol Intake             0
+Exercise Hours             0
+Family History             0
+Diabetes                   0
+Obesity                    0
+Stress Level               0
+Blood Sugar                0
+Exercise Induced Angina    0
+Chest Pain Type            0
+Heart Disease              0
+
+Number of duplicate rows: 0

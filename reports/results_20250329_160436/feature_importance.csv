@@ -1,0 +1,19 @@
+Feature,Importance
+Age,0.5833497
+Cholesterol,0.36754575
+Blood Sugar,0.007962814
+Family History_Yes,0.006571604
+Stress Level,0.006185476
+Blood Pressure,0.006157098
+Heart Rate,0.0053888434
+Diabetes_Yes,0.0048889886
+Chest Pain Type_Non-anginal Pain,0.0044632237
+Exercise Hours,0.004301565
+Exercise Induced Angina_Yes,0.0031849488
+Obesity_Yes,0.0
+Chest Pain Type_Atypical Angina,0.0
+Smoking_Never,0.0
+Alcohol Intake_Moderate,0.0
+Smoking_Former,0.0
+Gender_Male,0.0
+Chest Pain Type_Typical Angina,0.0
