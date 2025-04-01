@@ -120,8 +120,8 @@ heart-disease-prediction/
 **Goal**: Improve model performance.
 
 - [ ]  **Main Todo 5.1: Hyperparameter Tuning**
-    - [ ]  **Sub-todo 5.1.1**: Use `GridSearchCV` or `RandomizedSearchCV` for:
-        - Random Forest (tune `n_estimators`, `max_depth`).
+    - [x]  **Sub-todo 5.1.1**: Use `GridSearchCV` or `RandomizedSearchCV` for:
+      ~~**- Random Forest (tune `n_estimators`, `max_depth`).**~~
         - XGBoost (tune `learning_rate`, `max_depth`).
     - [ ]  **Sub-todo 5.1.2**: Re-evaluate metrics post-tuning.
 - [ ]  **Main Todo 5.2: Feature Importance**
