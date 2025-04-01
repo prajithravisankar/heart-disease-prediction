@@ -41,8 +41,7 @@ Sub-todo 4.1.1: Train 3 models:
 weighted avg       0.86      0.86      0.86       200
 
 - Confusion Matrix:
- [[112  10] \n
- [ 17  61]]
+ [[112  10] [ 17  61]]
 - AUC-ROC: 0.9508196721311475
 
 ---
