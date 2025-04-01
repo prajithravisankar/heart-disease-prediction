@@ -1,0 +1,105 @@
+import pandas as pd
+import joblib
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split, RandomizedSearchCV
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score, roc_curve, auc
+import os
+import numpy as np
+
+# Read Data
+df = pd.read_csv("cleaned_data.csv")
+X = df.drop("Heart Disease", axis=1)
+y = df["Heart Disease"]
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
+
+# Define parameter grid
+param_dist = {
+    'n_estimators': [100, 200, 300, 400, 500],
+    'max_depth': [5, 10, 15, 20, None]
+}
+
+# Initialize model
+rf = RandomForestClassifier(random_state=42)
+
+# Initialize RandomizedSearchCV
+random_search = RandomizedSearchCV(
+    estimator=rf,
+    param_distributions=param_dist,
+    n_iter=10,  # 10 parameter combinations
+    cv=5,  #5 cross verification
+    scoring='roc_auc',
+    random_state=42,
+    n_jobs=-1
+)
+
+# Fit the model
+random_search.fit(X_train, y_train)
+
+# Best parameters
+print("Best Parameters:", random_search.best_params_)
+
+# Retrain best model
+best_rf = random_search.best_estimator_
+y_pred = best_rf.predict(X_test)
+y_proba = best_rf.predict_proba(X_test)[:, 1]
+
+# Save model
+os.makedirs("models", exist_ok=True)
+joblib.dump(best_rf, "models/random_forest_best.pkl")
+
+# Confusion Matrix
+cm = confusion_matrix(y_test, y_pred)
+plt.figure(figsize=(6, 5))
+sns.heatmap(cm, annot=True, fmt="d", cmap="Greens",
+            xticklabels=["No Disease", "Disease"],
+            yticklabels=["No Disease", "Disease"])
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.title("Confusion Matrix - Random Forest (Tuned)")
+plt.tight_layout()
+plt.savefig("models/confusion_matrix_rf_best.png")
+
+fpr, tpr, thresholds = roc_curve(y_test, y_proba)
+roc_auc = auc(fpr, tpr)
+plt.figure(figsize=(6, 5))
+plt.plot(fpr, tpr, color='green', lw=2,
+         label=f'Random Forest (AUC = {roc_auc:.2f})')
+plt.plot([0, 1], [0, 1], color='gray', lw=2, linestyle='--')
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC Curve - Random Forest (Tuned)")
+plt.legend(loc="lower right")
+plt.tight_layout()
+plt.savefig("models/roc_curve_rf_best.png")
+
+# Print results
+print("Classification Report:\n", classification_report(y_test, y_pred))
+print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+print("AUC-ROC:", roc_auc_score(y_test, y_proba))
+
+
+# Feature Importance Visualization
+importances = best_rf.feature_importances_
+feature_names = X.columns
+
+# In order of importance
+indices = np.argsort(importances)[::-1]
+
+plt.figure(figsize=(10, 6))
+sns.barplot(x=importances[indices], y=feature_names[indices], hue=feature_names[indices], dodge=False, palette="Greens_r", legend=False)
+plt.xlabel("Feature Importance")
+plt.ylabel("Feature")
+plt.title("Feature Importance - Random Forest (Tuned)")
+plt.tight_layout()
+plt.savefig("models/feature_importance_rf_best.png")
+
+# Identify Top 5 Risk Factors
+top_5_indices = indices[:5]
+top_5_features = [(feature_names[i], importances[i]) for i in top_5_indices]
+print("\nTop 5 Risk Factors:")
+for i, (feature, importance) in enumerate(top_5_features, 1):
+    print(f"{i}. {feature}: {importance:.4f}")
