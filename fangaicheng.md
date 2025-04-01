@@ -68,15 +68,15 @@ weighted avg       1.00      0.99      0.99       200
 **Goal**: Improve model performance.
 Date: March 30, 5:00 PM Performed By: Fangai Cheng
 
-- [ ]  **Main Todo 5.1: Hyperparameter Tuning**
-    - [x]  **Sub-todo 5.1.1**: Use `GridSearchCV` or `RandomizedSearchCV` for:
+-  **Main Todo 5.1: Hyperparameter Tuning**
+    -   **Sub-todo 5.1.1**: Use `GridSearchCV` or `RandomizedSearchCV` for:
         -  ~~**- Random Forest (tune `n_estimators`, `max_depth`).**~~
             Fangai Cheng choosed **RandomizedSearchCV** to improve Random Forest
         - XGBoost (tune `learning_rate`, `max_depth`).
-    - [ ]  **Sub-todo 5.1.2**: Re-evaluate metrics post-tuning.
-- [ ]  **Main Todo 5.2: Feature Importance**
-    - [ ]  **Sub-todo 5.2.1**: Plot feature importance for the best model.
-    - [ ]  **Sub-todo 5.2.2**: Identify top 5 risk factors (e.g., `Cholesterol`, `Age`).
+    -   **Sub-todo 5.1.2**: Re-evaluate metrics post-tuning.
+-   **Main Todo 5.2: Feature Importance**
+    -  **Sub-todo 5.2.1**: Plot feature importance for the best model.
+    -  **Sub-todo 5.2.2**: Identify top 5 risk factors (e.g., `Cholesterol`, `Age`).
 
  - Best Parameters: {'n_estimators': 100, 'max_depth': 5}
  - Top 5 Risk Factors:
