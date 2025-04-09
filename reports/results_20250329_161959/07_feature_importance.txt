@@ -1,0 +1,18 @@
+Top 15 most important features:
+                            Feature  Importance
+0                               Age    0.560714
+1                       Cholesterol    0.387988
+2                    Blood Pressure    0.010855
+5                      Stress Level    0.010510
+3                        Heart Rate    0.008750
+11               Family History_Yes    0.007329
+8                    Smoking_Former    0.005435
+15  Chest Pain Type_Atypical Angina    0.004243
+6                       Blood Sugar    0.004176
+4                    Exercise Hours    0.000000
+9                     Smoking_Never    0.000000
+7                       Gender_Male    0.000000
+12                     Diabetes_Yes    0.000000
+10          Alcohol Intake_Moderate    0.000000
+13                      Obesity_Yes    0.000000
+

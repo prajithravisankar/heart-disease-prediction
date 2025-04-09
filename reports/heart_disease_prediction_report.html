@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        h1, h2, h3 { color: #2c3e50; }
+        .section { margin-bottom: 30px; }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; margin: 10px 0; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd; }
+        tr:hover { background-color: #f5f5f5; }
+        th { background-color: #2c3e50; color: white; }
+        .figure-container { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .figure-item { margin: 10px; max-width: 45%; }
+    </style>
+</head>
+<body>
+    <h1>Heart Disease Prediction Analysis Report</h1>
+    <p>Generated on: 2025-03-29 16:21:36</p>
+
+    <div class="section">
+        <h2>1. Data Exploration and Cleaning</h2>
+        <p>Dataset Shape: (1000, 16)</p>
+        <p>Missing values were handled for: Cholesterol, Blood Pressure, Alcohol Intake</p>
+        <p>Duplicate rows: 0</p>
+    </div>
+
+    <div class="section">
+        <h2>2. Exploratory Data Analysis</h2>
+        <p>Target Distribution: 39.2% patients have heart disease</p>
+
+        <h3>Key Insights:</h3>
+        <ul>
+            <li>Average age of patients with heart disease: 64.96 years</li>
+            <li>Average age of patients without heart disease: 44.13 years</li>
+            <li>Cholesterol levels are 0.36 correlated with heart disease</li>
+            <li>Age is 0.65 correlated with heart disease</li>
+        </ul>
+
+        <div class="figure-container">
+            <div class="figure-item">
+                <img src="figures_20250329_161959/01_heart_disease_distribution.png" alt="Heart Disease Distribution">
+                <p>Heart Disease Distribution</p>
+            </div>
+            <div class="figure-item">
+                <img src="figures_20250329_161959/02_age_distribution.png" alt="Age Distribution">
+                <p>Age Distribution by Heart Disease Status</p>
+            </div>
+            <div class="figure-item">
+                <img src="figures_20250329_161959/05_correlation_heatmap.png" alt="Correlation Heatmap">
+                <p>Correlation Heatmap of Numerical Features</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>3. Model Performance</h2>
+        <p>Three machine learning models were evaluated:</p>
+        <table>
+            <tr>
+                <th>Model</th>
+                <th>Accuracy</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1 Score</th>
+                <th>ROC-AUC</th>
+            </tr>
+            <table border="1" class="dataframe table">
+  <tbody>
+    <tr>
+      <td>XGBoost</td>
+      <td>1.000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>Random Forest</td>
+      <td>0.995</td>
+      <td>1.000000</td>
+      <td>0.987179</td>
+      <td>0.993548</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <td>Logistic Regression</td>
+      <td>0.860</td>
+      <td>0.847222</td>
+      <td>0.782051</td>
+      <td>0.813333</td>
+      <td>0.950925</td>
+    </tr>
+  </tbody>
+</table>
+        </table>
+
+        <h3>Best Model: XGBoost</h3>
+        <p>After hyperparameter tuning, the model achieved:</p>
+        <ul>
+            <li>Accuracy: 1.0000</li>
+            <li>Precision: 1.0000</li>
+            <li>Recall: 1.0000</li>
+            <li>F1 Score: 1.0000</li>
+            <li>ROC-AUC: 1.0000</li>
+        </ul>
+
+        <div class="figure-container">
+            <div class="figure-item">
+                <img src="figures_20250329_161959/08_model_comparison.png" alt="Model Comparison">
+                <p>Model Performance Comparison</p>
+            </div>
+            <div class="figure-item">
+                <img src="figures_20250329_161959/09_roc_curves.png" alt="ROC Curves">
+                <p>ROC Curves for Different Models</p>
+            </div>
+            <div class="figure-item">
+                <img src="figures_20250329_161959/10_tuned_model_confusion_matrix.png" alt="Confusion Matrix">
+                <p>Confusion Matrix for the Best Model</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>4. Feature Importance</h2>
+        <p>Top 5 most important features for predicting heart disease:</p>
+        <ol>
+            <li>Age: 0.5607</li><li>Cholesterol: 0.3880</li><li>Blood Pressure: 0.0109</li><li>Stress Level: 0.0105</li><li>Heart Rate: 0.0088</li>
+        </ol>
+
+        <div class="figure-item">
+            <img src="figures_20250329_161959/11_feature_importance.png" alt="Feature Importance">
+            <p>Feature Importance Chart</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>5. Recommendations for Healthcare Providers</h2>
+        <ol>
+            <li>Prioritize monitoring of patients with advanced age and elevated cholesterol levels</li>
+            <li>Develop targeted screening programs based on the identified key risk factors</li>
+            <li>Use the prediction model as a supportive tool for early detection of heart disease</li>
+            <li>Combine model predictions with clinical judgment for comprehensive patient care</li>
+            <li>Consider additional clinical factors not included in the current model for holistic assessment</li>
+        </ol>
+    </div>
+</body>
+</html>

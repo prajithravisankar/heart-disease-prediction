@@ -1,0 +1,81 @@
+Heart Disease distribution:
+Heart Disease
+0    60.8
+1    39.2
+
+Age Statistics by Heart Disease Status:
+                mean  median  min  max    std
+Heart Disease                                
+0              44.13    42.0   25   79  13.81
+1              64.96    65.0   51   79   8.46
+
+Cholesterol Statistics by Heart Disease Status:
+                 mean  median    min    max    std
+Heart Disease                                     
+0              233.04   222.0  150.0  349.0  59.74
+1              276.26   278.0  201.0  349.0  43.43
+
+Blood Pressure Statistics by Heart Disease Status:
+                 mean  median   min    max    std
+Heart Disease                                    
+0              135.13   136.5  90.0  179.0  26.55
+1              135.71   136.0  90.0  179.0  26.04
+
+Heart Rate Statistics by Heart Disease Status:
+                mean  median  min  max    std
+Heart Disease                                
+0              79.08    78.0   60   99  11.36
+1              79.39    79.0   60   99  11.70
+
+Heart Disease % by Gender:
+  Category  Heart Disease %
+0   Female        37.773360
+1     Male        40.643863
+
+Heart Disease % by Smoking:
+  Category  Heart Disease %
+0  Current        42.261905
+1   Former        32.822086
+2    Never        42.307692
+
+Heart Disease % by Alcohol Intake:
+   Category  Heart Disease %
+0     Heavy        37.172012
+1  Moderate        43.630573
+
+Heart Disease % by Family History:
+  Category  Heart Disease %
+0       No        37.724551
+1      Yes        40.681363
+
+Heart Disease % by Diabetes:
+  Category  Heart Disease %
+0       No        38.383838
+1      Yes        40.000000
+
+Heart Disease % by Obesity:
+  Category  Heart Disease %
+0       No        40.119760
+1      Yes        38.276553
+
+Heart Disease % by Exercise Induced Angina:
+  Category  Heart Disease %
+0       No        39.015152
+1      Yes        39.406780
+
+Heart Disease % by Chest Pain Type:
+           Category  Heart Disease %
+0      Asymptomatic        41.129032
+1   Atypical Angina        40.650407
+2  Non-anginal Pain        35.156250
+3    Typical Angina        40.000000
+
+Correlation with Heart Disease (sorted):
+Age               0.646871
+Cholesterol       0.364572
+Heart Rate        0.013209
+Blood Pressure    0.010633
+Stress Level      0.007071
+Blood Sugar      -0.006375
+Exercise Hours   -0.014781
+

@@ -1,0 +1,21 @@
+Numerical features:
+Age
+Cholesterol
+Blood Pressure
+Heart Rate
+Exercise Hours
+Stress Level
+Blood Sugar
+
+Categorical features (after one-hot encoding):
+Gender_Male
+Smoking_Former
+Smoking_Never
+Alcohol Intake_Moderate
+Family History_Yes
+Diabetes_Yes
+Obesity_Yes
+Exercise Induced Angina_Yes
+Chest Pain Type_Atypical Angina
+Chest Pain Type_Non-anginal Pain
+Chest Pain Type_Typical Angina

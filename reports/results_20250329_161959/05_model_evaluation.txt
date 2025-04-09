@@ -1,0 +1,88 @@
+
+
+Logistic Regression Results:
+------------------------------
+Cross-validation F1 scores: [0.80327869 0.79032258 0.81300813 0.83211679 0.83606557]
+Mean CV F1 score: 0.8150 ± 0.0172
+
+Test Accuracy: 0.8600
+Test Precision: 0.8472
+Test Recall: 0.7821
+Test F1 Score: 0.8133
+Test ROC-AUC: 0.9509
+
+Confusion Matrix:
+[[111  11]
+ [ 17  61]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89       122
+           1       0.85      0.78      0.81        78
+
+    accuracy                           0.86       200
+   macro avg       0.86      0.85      0.85       200
+weighted avg       0.86      0.86      0.86       200
+
+
+
+Random Forest Results:
+------------------------------
+Cross-validation F1 scores: [1.    0.992 1.    1.    1.   ]
+Mean CV F1 score: 0.9984 ± 0.0032
+
+Test Accuracy: 0.9950
+Test Precision: 1.0000
+Test Recall: 0.9872
+Test F1 Score: 0.9935
+Test ROC-AUC: 1.0000
+
+Confusion Matrix:
+[[122   0]
+ [  1  77]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       122
+           1       1.00      0.99      0.99        78
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.99      0.99       200
+weighted avg       1.00      0.99      0.99       200
+
+
+
+XGBoost Results:
+------------------------------
+Cross-validation F1 scores: [1.       1.       1.       1.       0.984375]
+Mean CV F1 score: 0.9969 ± 0.0063
+
+Test Accuracy: 1.0000
+Test Precision: 1.0000
+Test Recall: 1.0000
+Test F1 Score: 1.0000
+Test ROC-AUC: 1.0000
+
+Confusion Matrix:
+[[122   0]
+ [  0  78]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       122
+           1       1.00      1.00      1.00        78
+
+    accuracy                           1.00       200
+   macro avg       1.00      1.00      1.00       200
+weighted avg       1.00      1.00      1.00       200
+
+
+
+Model Comparison:
+                 Model  Accuracy  Precision    Recall  F1 Score   ROC-AUC
+2              XGBoost     1.000   1.000000  1.000000  1.000000  1.000000
+1        Random Forest     0.995   1.000000  0.987179  0.993548  1.000000
+0  Logistic Regression     0.860   0.847222  0.782051  0.813333  0.950925

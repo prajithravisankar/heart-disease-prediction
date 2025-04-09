@@ -1,0 +1,1001 @@
+Age,Gender,Cholesterol,Blood Pressure,Heart Rate,Smoking,Alcohol Intake,Exercise Hours,Family History,Diabetes,Obesity,Stress Level,Blood Sugar,Exercise Induced Angina,Chest Pain Type,Heart Disease
+75,Female,228.0,119.0,66,Current,Heavy,0,No,No,Yes,8,119,Yes,Atypical Angina,1
+48,Male,204.0,165.0,62,Current,Heavy,5,No,No,No,9,70,Yes,Typical Angina,0
+53,Male,234.0,91.0,67,Never,Heavy,3,Yes,No,Yes,5,196,Yes,Atypical Angina,1
+69,Female,192.0,90.0,72,Current,Heavy,4,No,Yes,No,7,107,Yes,Non-anginal Pain,0
+62,Female,172.0,163.0,93,Never,Heavy,6,No,Yes,No,2,183,Yes,Asymptomatic,0
+77,Male,309.0,110.0,73,Never,Heavy,0,No,Yes,Yes,4,122,Yes,Asymptomatic,1
+64,Female,211.0,105.0,86,Former,Heavy,8,Yes,Yes,Yes,2,120,No,Typical Angina,1
+60,Female,208.0,148.0,83,Never,Moderate,4,No,Yes,Yes,2,113,Yes,Asymptomatic,1
+37,Female,317.0,136.0,66,Current,Heavy,3,No,Yes,Yes,5,114,No,Non-anginal Pain,0
+63,Male,204.0,141.0,68,Former,Heavy,8,No,Yes,No,3,107,No,Asymptomatic,1
+67,Female,282.0,108.0,87,Never,Heavy,3,Yes,No,Yes,9,85,Yes,Typical Angina,1
+37,Male,293.0,148.0,98,Current,Moderate,6,Yes,No,Yes,10,129,No,Typical Angina,0
+67,Male,325.0,177.0,81,Never,Moderate,8,Yes,No,Yes,10,192,No,Non-anginal Pain,1
+43,Male,155.0,169.0,82,Current,Heavy,8,Yes,Yes,No,2,163,No,Typical Angina,0
+60,Male,226.0,168.0,99,Never,Moderate,8,Yes,Yes,No,10,97,No,Non-anginal Pain,1
+44,Female,250.0,111.0,66,Former,Heavy,6,Yes,No,Yes,3,199,Yes,Non-anginal Pain,0
+43,Female,279.0,173.0,81,Current,Moderate,9,Yes,No,No,7,150,No,Asymptomatic,0
+46,Female,259.0,118.0,76,Never,Heavy,4,No,Yes,Yes,8,76,No,Non-anginal Pain,0
+45,Female,246.0,169.0,98,Never,Moderate,5,Yes,No,Yes,9,97,No,Typical Angina,0
+74,Female,298.0,148.0,70,Former,Heavy,9,Yes,Yes,Yes,8,157,Yes,Non-anginal Pain,1
+76,Female,226.0,97.0,62,Former,Heavy,5,Yes,Yes,No,4,85,No,Non-anginal Pain,1
+44,Female,309.0,95.0,83,Former,Heavy,4,No,Yes,No,4,139,No,Non-anginal Pain,0
+58,Male,297.0,136.0,72,Current,Heavy,6,Yes,No,No,10,104,Yes,Atypical Angina,1
+67,Male,287.0,117.0,64,Current,Moderate,0,Yes,Yes,Yes,1,199,Yes,Atypical Angina,1
+67,Female,177.0,171.0,87,Never,Heavy,0,No,No,No,5,170,Yes,Typical Angina,0
+31,Male,276.0,110.0,61,Never,Heavy,8,Yes,Yes,No,7,187,Yes,Non-anginal Pain,0
+66,Female,265.0,159.0,99,Never,Heavy,4,Yes,Yes,No,7,151,No,Non-anginal Pain,1
+63,Male,273.0,103.0,64,Never,Heavy,6,Yes,Yes,Yes,9,104,No,Typical Angina,1
+77,Female,197.0,170.0,61,Current,Moderate,8,No,No,Yes,9,92,No,Non-anginal Pain,0
+79,Male,319.0,136.0,63,Never,Moderate,0,Yes,No,Yes,9,95,No,Typical Angina,1
+32,Female,313.0,154.0,70,Former,Moderate,5,No,Yes,Yes,6,176,Yes,Asymptomatic,0
+48,Male,179.0,117.0,61,Never,Heavy,7,No,No,No,1,166,Yes,Asymptomatic,0
+41,Male,234.0,98.0,71,Never,Moderate,6,No,No,No,6,73,Yes,Atypical Angina,0
+53,Female,228.0,142.0,99,Former,Heavy,0,Yes,Yes,Yes,9,75,Yes,Atypical Angina,1
+36,Male,227.0,158.0,78,Former,Heavy,8,Yes,No,Yes,6,120,No,Asymptomatic,0
+57,Male,262.0,166.0,73,Never,Moderate,1,No,No,Yes,8,97,Yes,Atypical Angina,1
+60,Female,311.0,159.0,60,Former,Heavy,4,Yes,Yes,Yes,10,99,No,Non-anginal Pain,1
+66,Female,230.0,150.0,92,Current,Heavy,2,No,Yes,No,8,111,No,Atypical Angina,1
+46,Male,192.0,139.0,61,Former,Heavy,0,Yes,No,Yes,2,174,Yes,Asymptomatic,0
+72,Female,306.0,137.0,72,Current,Moderate,0,Yes,Yes,No,2,122,No,Asymptomatic,1
+67,Female,216.0,137.0,80,Former,Heavy,0,Yes,No,Yes,8,135,No,Asymptomatic,1
+65,Male,189.0,143.0,70,Current,Heavy,2,Yes,No,No,5,150,Yes,Non-anginal Pain,0
+37,Female,162.0,126.0,79,Current,Moderate,1,Yes,Yes,Yes,8,93,No,Non-anginal Pain,0
+28,Female,248.0,162.0,63,Former,Moderate,4,Yes,No,Yes,3,109,Yes,Non-anginal Pain,0
+70,Female,271.0,159.0,82,Former,Moderate,8,Yes,No,No,7,87,Yes,Typical Angina,1
+36,Female,209.0,106.0,84,Former,Heavy,0,No,Yes,Yes,3,137,Yes,Typical Angina,0
+51,Male,251.0,170.0,71,Current,Heavy,3,No,Yes,No,4,111,No,Non-anginal Pain,1
+74,Male,325.0,95.0,87,Never,Heavy,3,Yes,No,Yes,10,162,No,Atypical Angina,1
+41,Male,268.0,95.0,70,Current,Heavy,9,No,No,No,4,176,No,Non-anginal Pain,0
+41,Male,286.0,128.0,97,Never,Heavy,6,Yes,Yes,No,9,78,No,Non-anginal Pain,0
+69,Female,167.0,157.0,83,Former,Moderate,4,Yes,Yes,No,2,160,No,Asymptomatic,0
+54,Female,348.0,129.0,97,Current,Heavy,4,Yes,No,No,9,187,Yes,Atypical Angina,1
+52,Female,330.0,125.0,68,Current,Moderate,4,No,No,Yes,4,154,No,Non-anginal Pain,1
+38,Male,264.0,120.0,89,Former,Heavy,5,Yes,No,No,10,172,No,Atypical Angina,0
+25,Female,287.0,148.0,82,Former,Heavy,8,No,No,No,1,199,Yes,Non-anginal Pain,0
+52,Male,207.0,95.0,84,Current,Moderate,2,No,No,No,8,180,Yes,Asymptomatic,1
+53,Male,252.0,107.0,91,Former,Moderate,8,No,No,No,1,124,Yes,Atypical Angina,1
+55,Female,232.0,91.0,93,Never,Heavy,6,No,No,Yes,10,152,No,Typical Angina,1
+61,Male,261.0,156.0,97,Former,Heavy,2,Yes,Yes,Yes,7,154,Yes,Atypical Angina,1
+30,Male,264.0,135.0,99,Former,Heavy,7,Yes,Yes,Yes,9,99,Yes,Typical Angina,0
+48,Female,257.0,171.0,89,Never,Heavy,2,No,Yes,Yes,3,141,No,Asymptomatic,0
+35,Female,339.0,165.0,68,Never,Heavy,9,No,No,Yes,5,99,Yes,Asymptomatic,0
+42,Male,166.0,119.0,97,Never,Moderate,0,No,No,No,10,109,No,Typical Angina,0
+56,Female,339.0,148.0,60,Never,Heavy,8,Yes,Yes,Yes,3,88,Yes,Asymptomatic,1
+47,Male,310.0,97.0,72,Current,Heavy,7,No,Yes,Yes,6,96,Yes,Asymptomatic,0
+71,Male,192.0,148.0,90,Current,Heavy,1,Yes,Yes,No,1,156,No,Asymptomatic,0
+68,Female,282.0,136.0,92,Current,Heavy,5,No,No,Yes,3,172,No,Typical Angina,1
+59,Female,180.0,127.0,70,Never,Moderate,4,Yes,Yes,No,2,122,No,Non-anginal Pain,0
+25,Female,162.0,122.0,77,Current,Heavy,0,No,No,No,1,137,Yes,Non-anginal Pain,0
+44,Male,331.0,169.0,94,Current,Heavy,3,No,No,No,8,177,No,Asymptomatic,0
+64,Male,348.0,174.0,64,Current,Moderate,6,Yes,No,Yes,6,170,No,Non-anginal Pain,1
+45,Male,307.0,161.0,90,Former,Moderate,7,No,No,Yes,3,134,No,Asymptomatic,0
+33,Female,271.0,159.0,62,Former,Heavy,1,Yes,No,Yes,2,176,Yes,Atypical Angina,0
+65,Male,247.0,140.0,89,Never,Moderate,8,Yes,Yes,No,8,183,Yes,Typical Angina,1
+79,Male,243.0,121.0,80,Never,Heavy,1,Yes,Yes,No,3,158,No,Atypical Angina,1
+52,Female,290.0,114.0,63,Current,Heavy,5,Yes,Yes,No,1,151,No,Typical Angina,1
+61,Male,209.0,144.0,70,Current,Heavy,5,Yes,Yes,No,8,86,No,Typical Angina,1
+78,Male,223.0,132.0,68,Current,Heavy,7,Yes,Yes,No,1,199,Yes,Non-anginal Pain,1
+69,Female,166.0,157.0,92,Former,Heavy,3,No,No,No,2,170,Yes,Atypical Angina,0
+28,Female,155.0,95.0,67,Former,Heavy,6,No,No,No,2,105,Yes,Asymptomatic,0
+77,Female,161.0,136.0,83,Current,Heavy,2,No,No,No,5,155,Yes,Non-anginal Pain,0
+76,Male,241.0,101.0,67,Former,Heavy,4,No,No,Yes,10,74,Yes,Typical Angina,1
+30,Female,154.0,175.0,87,Former,Heavy,7,Yes,No,No,7,97,No,Typical Angina,0
+57,Female,203.0,156.0,98,Never,Moderate,7,No,No,No,6,143,Yes,Atypical Angina,1
+62,Female,205.0,127.0,78,Never,Heavy,3,Yes,Yes,Yes,4,127,No,Typical Angina,1
+53,Male,179.0,162.0,76,Never,Moderate,1,No,No,No,9,163,Yes,Typical Angina,0
+26,Male,264.0,122.0,62,Former,Moderate,5,Yes,No,Yes,10,176,No,Non-anginal Pain,0
+46,Female,180.0,109.0,76,Never,Heavy,6,No,Yes,No,2,176,No,Non-anginal Pain,0
+61,Female,184.0,119.0,77,Never,Heavy,8,No,Yes,Yes,10,92,Yes,Atypical Angina,0
+50,Male,291.0,172.0,94,Current,Heavy,5,No,Yes,Yes,6,176,No,Non-anginal Pain,0
+51,Female,210.0,139.0,81,Current,Heavy,0,Yes,Yes,No,8,145,No,Typical Angina,1
+38,Male,215.0,138.0,61,Former,Heavy,1,No,Yes,Yes,10,198,Yes,Atypical Angina,0
+38,Female,336.0,97.0,71,Current,Heavy,8,No,Yes,Yes,10,163,No,Asymptomatic,0
+54,Female,242.0,145.0,75,Current,Heavy,3,Yes,No,No,8,159,No,Asymptomatic,1
+32,Female,320.0,150.0,93,Never,Moderate,5,No,Yes,No,10,148,No,Non-anginal Pain,0
+46,Male,290.0,149.0,77,Never,Moderate,6,Yes,Yes,No,10,157,No,Non-anginal Pain,0
+63,Female,262.0,117.0,99,Current,Heavy,9,Yes,No,No,2,199,No,Asymptomatic,1
+61,Female,284.0,163.0,95,Former,Heavy,1,Yes,No,No,10,171,Yes,Typical Angina,1
+43,Male,249.0,117.0,87,Former,Heavy,7,Yes,No,Yes,1,73,Yes,Non-anginal Pain,0
+61,Female,248.0,100.0,91,Former,Moderate,3,Yes,Yes,No,3,110,No,Atypical Angina,1
+35,Male,331.0,103.0,82,Former,Heavy,1,Yes,No,No,2,103,No,Asymptomatic,0
+56,Male,226.0,136.0,95,Never,Heavy,3,Yes,Yes,No,5,115,No,Typical Angina,1
+50,Male,232.0,158.0,87,Former,Heavy,0,Yes,Yes,No,4,110,No,Non-anginal Pain,0
+51,Female,236.0,157.0,81,Current,Heavy,9,Yes,No,No,7,183,No,Atypical Angina,1
+64,Male,317.0,124.0,94,Former,Heavy,4,No,Yes,No,3,193,No,Atypical Angina,1
+47,Female,230.0,135.0,97,Former,Heavy,0,No,Yes,Yes,7,99,Yes,Asymptomatic,0
+61,Female,311.0,128.0,87,Former,Heavy,7,No,No,Yes,1,74,Yes,Asymptomatic,1
+68,Male,307.0,124.0,82,Current,Heavy,4,No,Yes,No,4,132,Yes,Atypical Angina,1
+64,Female,174.0,115.0,98,Current,Heavy,8,Yes,No,No,10,110,Yes,Atypical Angina,0
+37,Female,226.0,173.0,86,Current,Moderate,7,No,Yes,No,2,139,No,Asymptomatic,0
+72,Male,210.0,166.0,75,Current,Moderate,6,Yes,No,Yes,6,132,No,Asymptomatic,1
+27,Male,164.0,114.0,98,Never,Heavy,2,Yes,No,No,7,96,Yes,Typical Angina,0
+79,Male,296.0,98.0,98,Current,Moderate,2,No,Yes,No,2,160,No,Atypical Angina,1
+56,Female,278.0,96.0,69,Never,Heavy,9,No,Yes,Yes,9,143,No,Atypical Angina,1
+54,Male,196.0,162.0,89,Never,Heavy,9,Yes,No,No,10,93,Yes,Typical Angina,0
+75,Male,298.0,179.0,64,Former,Heavy,4,Yes,Yes,No,10,105,Yes,Typical Angina,1
+32,Male,272.0,126.0,82,Never,Heavy,1,No,Yes,No,9,140,Yes,Typical Angina,0
+39,Female,328.0,173.0,75,Former,Moderate,0,No,No,Yes,5,72,Yes,Asymptomatic,0
+62,Male,176.0,155.0,90,Never,Heavy,3,No,Yes,No,3,147,No,Atypical Angina,0
+40,Male,327.0,97.0,87,Never,Heavy,7,Yes,No,No,10,161,Yes,Atypical Angina,0
+78,Female,217.0,178.0,98,Never,Heavy,3,No,Yes,No,4,144,Yes,Asymptomatic,1
+47,Male,222.0,128.0,83,Former,Heavy,0,Yes,Yes,Yes,1,103,Yes,Typical Angina,0
+67,Male,328.0,132.0,89,Former,Heavy,6,No,Yes,No,5,116,Yes,Asymptomatic,1
+68,Female,185.0,158.0,78,Never,Moderate,0,No,No,Yes,9,90,Yes,Non-anginal Pain,0
+42,Male,201.0,158.0,61,Current,Heavy,6,Yes,Yes,No,3,91,Yes,Atypical Angina,0
+29,Male,237.0,110.0,64,Former,Heavy,7,Yes,No,Yes,5,183,Yes,Typical Angina,0
+59,Male,175.0,152.0,76,Current,Heavy,9,Yes,Yes,No,8,104,No,Non-anginal Pain,0
+51,Female,272.0,144.0,86,Current,Moderate,8,Yes,Yes,Yes,3,79,Yes,Non-anginal Pain,1
+27,Male,319.0,146.0,63,Former,Heavy,6,Yes,No,Yes,8,85,Yes,Typical Angina,0
+41,Female,251.0,106.0,70,Former,Heavy,2,Yes,No,No,8,150,No,Asymptomatic,0
+25,Male,224.0,119.0,79,Never,Heavy,3,Yes,Yes,Yes,9,173,Yes,Atypical Angina,0
+48,Male,164.0,100.0,81,Never,Heavy,8,Yes,Yes,No,10,93,Yes,Asymptomatic,0
+30,Male,294.0,128.0,76,Former,Heavy,0,No,No,Yes,4,135,Yes,Typical Angina,0
+36,Female,238.0,91.0,61,Never,Heavy,0,No,Yes,No,3,174,No,Atypical Angina,0
+72,Male,348.0,110.0,69,Never,Heavy,7,No,No,No,3,77,Yes,Asymptomatic,1
+53,Male,270.0,135.0,70,Former,Heavy,0,Yes,No,No,3,144,Yes,Typical Angina,1
+64,Male,195.0,105.0,76,Current,Heavy,7,Yes,Yes,Yes,5,142,Yes,Typical Angina,0
+54,Female,184.0,138.0,66,Never,Moderate,9,Yes,No,Yes,1,89,Yes,Typical Angina,0
+30,Female,281.0,95.0,80,Former,Heavy,7,Yes,No,No,1,178,Yes,Atypical Angina,0
+76,Male,199.0,139.0,75,Former,Heavy,4,Yes,No,No,6,175,Yes,Atypical Angina,0
+45,Female,345.0,174.0,74,Current,Heavy,7,Yes,No,No,10,154,No,Atypical Angina,0
+42,Male,234.0,155.0,72,Former,Moderate,8,No,No,Yes,4,105,No,Typical Angina,0
+26,Male,241.0,142.0,77,Never,Moderate,5,No,Yes,No,2,118,No,Atypical Angina,0
+48,Female,208.0,178.0,75,Former,Heavy,9,No,No,No,10,140,Yes,Typical Angina,0
+51,Female,196.0,164.0,87,Never,Moderate,2,No,Yes,Yes,3,158,No,Asymptomatic,0
+74,Female,170.0,126.0,99,Former,Heavy,7,No,No,No,10,105,Yes,Atypical Angina,0
+57,Female,248.0,112.0,90,Never,Moderate,1,No,Yes,No,2,90,No,Atypical Angina,1
+74,Female,208.0,117.0,62,Former,Heavy,5,Yes,No,Yes,3,151,Yes,Typical Angina,1
+56,Male,287.0,177.0,63,Former,Moderate,9,No,No,No,10,103,No,Atypical Angina,1
+65,Female,256.0,171.0,67,Never,Moderate,8,No,No,No,6,85,Yes,Non-anginal Pain,1
+76,Male,153.0,145.0,77,Never,Heavy,0,Yes,No,No,6,172,No,Asymptomatic,0
+61,Male,183.0,167.0,78,Former,Heavy,9,Yes,Yes,No,2,108,No,Typical Angina,0
+76,Female,347.0,116.0,69,Current,Heavy,5,Yes,Yes,No,6,149,Yes,Asymptomatic,1
+67,Male,221.0,115.0,69,Former,Moderate,6,No,Yes,Yes,2,126,No,Non-anginal Pain,1
+39,Female,200.0,98.0,77,Former,Moderate,0,Yes,Yes,Yes,6,101,No,Non-anginal Pain,0
+51,Male,277.0,153.0,99,Current,Heavy,0,Yes,No,No,8,163,Yes,Atypical Angina,1
+64,Male,250.0,98.0,79,Former,Heavy,0,Yes,No,No,4,105,Yes,Typical Angina,1
+33,Female,302.0,121.0,69,Former,Moderate,1,No,Yes,Yes,4,128,No,Atypical Angina,0
+40,Female,169.0,96.0,68,Current,Heavy,8,Yes,No,Yes,4,111,No,Asymptomatic,0
+75,Female,307.0,108.0,65,Never,Heavy,7,No,No,Yes,7,167,No,Asymptomatic,1
+27,Female,248.0,170.0,60,Current,Moderate,0,No,Yes,No,3,184,No,Asymptomatic,0
+77,Female,329.0,156.0,65,Former,Heavy,8,No,No,No,5,170,Yes,Non-anginal Pain,1
+27,Female,266.0,171.0,96,Never,Heavy,2,Yes,No,No,9,179,No,Non-anginal Pain,0
+68,Male,198.0,110.0,86,Former,Moderate,6,Yes,Yes,No,9,158,No,Asymptomatic,0
+52,Male,339.0,169.0,88,Never,Heavy,8,Yes,No,No,3,157,No,Atypical Angina,1
+73,Male,286.0,138.0,66,Current,Heavy,4,Yes,No,Yes,3,103,No,Atypical Angina,1
+49,Male,330.0,158.0,67,Former,Moderate,9,No,Yes,Yes,2,144,No,Atypical Angina,0
+56,Male,261.0,153.0,78,Never,Heavy,6,No,No,No,8,197,No,Typical Angina,1
+31,Female,309.0,119.0,83,Never,Heavy,4,No,Yes,No,8,109,Yes,Non-anginal Pain,0
+53,Male,308.0,178.0,80,Never,Moderate,5,Yes,Yes,No,9,186,No,Atypical Angina,1
+55,Male,174.0,105.0,76,Current,Heavy,1,Yes,No,Yes,4,70,No,Atypical Angina,0
+42,Male,283.0,106.0,99,Current,Heavy,3,Yes,No,Yes,3,192,No,Non-anginal Pain,0
+38,Male,254.0,95.0,60,Former,Heavy,7,Yes,Yes,No,9,171,No,Non-anginal Pain,0
+58,Male,277.0,153.0,91,Never,Heavy,0,Yes,Yes,No,4,154,Yes,Non-anginal Pain,1
+75,Male,306.0,114.0,99,Current,Heavy,1,No,Yes,Yes,5,186,No,Non-anginal Pain,1
+68,Female,249.0,98.0,92,Former,Heavy,0,No,Yes,No,8,108,Yes,Non-anginal Pain,1
+66,Female,343.0,147.0,94,Current,Heavy,5,Yes,Yes,Yes,4,103,No,Atypical Angina,1
+68,Female,292.0,167.0,79,Current,Heavy,1,Yes,No,No,2,134,Yes,Non-anginal Pain,1
+32,Male,181.0,130.0,72,Former,Moderate,8,Yes,No,No,10,143,No,Atypical Angina,0
+35,Female,325.0,96.0,70,Current,Heavy,9,No,No,No,9,91,Yes,Asymptomatic,0
+41,Male,231.0,103.0,63,Former,Heavy,8,No,No,No,9,180,Yes,Typical Angina,0
+36,Male,275.0,168.0,92,Never,Heavy,5,Yes,Yes,Yes,6,149,No,Asymptomatic,0
+48,Male,329.0,162.0,70,Current,Heavy,5,No,No,No,2,179,Yes,Asymptomatic,0
+28,Male,277.0,174.0,71,Former,Heavy,3,Yes,No,Yes,9,146,Yes,Non-anginal Pain,0
+26,Female,153.0,124.0,63,Never,Heavy,4,No,Yes,No,1,175,Yes,Non-anginal Pain,0
+54,Female,238.0,102.0,63,Former,Moderate,9,Yes,Yes,No,1,85,No,Typical Angina,1
+63,Male,328.0,119.0,83,Never,Moderate,5,Yes,No,Yes,1,167,No,Atypical Angina,1
+46,Male,168.0,140.0,99,Former,Moderate,2,Yes,No,Yes,1,98,No,Asymptomatic,0
+53,Male,265.0,93.0,82,Current,Heavy,2,No,No,No,7,113,Yes,Asymptomatic,1
+49,Female,250.0,133.0,75,Current,Heavy,5,Yes,No,Yes,1,104,Yes,Typical Angina,0
+26,Female,187.0,179.0,97,Never,Moderate,5,No,Yes,Yes,3,84,Yes,Atypical Angina,0
+68,Male,323.0,127.0,83,Never,Heavy,5,Yes,No,No,6,161,No,Asymptomatic,1
+73,Female,184.0,104.0,60,Former,Moderate,1,Yes,No,Yes,7,196,No,Non-anginal Pain,0
+78,Male,156.0,148.0,66,Current,Heavy,9,Yes,Yes,No,6,123,No,Non-anginal Pain,0
+73,Female,235.0,146.0,91,Never,Heavy,3,No,No,Yes,5,111,No,Asymptomatic,1
+58,Female,328.0,148.0,97,Never,Moderate,3,No,Yes,No,9,144,No,Asymptomatic,1
+66,Male,300.0,98.0,65,Never,Moderate,7,No,No,No,6,94,No,Non-anginal Pain,1
+58,Male,344.0,163.0,92,Current,Heavy,0,Yes,No,No,5,99,Yes,Non-anginal Pain,1
+40,Female,156.0,90.0,91,Never,Heavy,9,Yes,No,No,4,71,Yes,Typical Angina,0
+71,Male,177.0,147.0,79,Never,Moderate,6,Yes,No,Yes,8,73,No,Non-anginal Pain,0
+57,Male,267.0,105.0,75,Current,Heavy,6,No,No,No,3,197,No,Asymptomatic,1
+46,Female,249.0,109.0,89,Former,Heavy,6,Yes,No,No,8,146,Yes,Typical Angina,0
+75,Male,178.0,125.0,71,Former,Moderate,3,No,No,Yes,9,149,Yes,Asymptomatic,0
+68,Male,159.0,148.0,82,Never,Heavy,8,No,No,Yes,3,159,Yes,Non-anginal Pain,0
+63,Female,300.0,166.0,78,Never,Moderate,3,Yes,No,Yes,9,142,No,Atypical Angina,1
+39,Male,209.0,147.0,74,Never,Heavy,4,Yes,No,No,5,193,Yes,Asymptomatic,0
+26,Female,213.0,167.0,76,Current,Heavy,1,Yes,Yes,Yes,5,127,No,Asymptomatic,0
+42,Female,237.0,115.0,82,Never,Heavy,9,Yes,No,Yes,3,181,No,Asymptomatic,0
+58,Male,317.0,174.0,65,Never,Heavy,8,No,No,No,6,173,Yes,Atypical Angina,1
+32,Female,255.0,164.0,85,Former,Moderate,2,No,No,No,8,193,No,Typical Angina,0
+61,Male,297.0,170.0,79,Current,Heavy,9,Yes,No,No,5,189,Yes,Non-anginal Pain,1
+47,Male,285.0,91.0,70,Current,Heavy,3,Yes,Yes,No,3,167,No,Non-anginal Pain,0
+70,Male,167.0,125.0,63,Current,Heavy,7,No,No,No,9,145,No,Non-anginal Pain,0
+79,Male,335.0,109.0,95,Current,Moderate,1,Yes,No,Yes,2,170,No,Asymptomatic,1
+64,Male,200.0,97.0,91,Former,Heavy,0,No,No,Yes,4,189,No,Asymptomatic,0
+40,Male,238.0,101.0,94,Never,Heavy,7,Yes,No,No,1,195,Yes,Atypical Angina,0
+48,Male,198.0,144.0,77,Never,Heavy,9,Yes,Yes,No,7,184,Yes,Atypical Angina,0
+26,Male,252.0,96.0,64,Current,Moderate,4,No,No,Yes,10,105,Yes,Typical Angina,0
+70,Female,238.0,117.0,80,Current,Heavy,9,Yes,Yes,No,7,161,Yes,Typical Angina,1
+74,Female,295.0,151.0,62,Never,Heavy,8,Yes,No,No,2,170,Yes,Typical Angina,1
+25,Male,241.0,132.0,92,Never,Heavy,1,No,Yes,Yes,6,79,Yes,Asymptomatic,0
+36,Female,158.0,126.0,93,Current,Moderate,0,Yes,No,Yes,3,196,No,Asymptomatic,0
+52,Male,229.0,139.0,63,Never,Heavy,2,Yes,No,Yes,4,90,No,Typical Angina,1
+40,Female,176.0,131.0,89,Former,Heavy,0,No,Yes,No,4,101,No,Asymptomatic,0
+32,Female,349.0,148.0,65,Former,Moderate,3,Yes,Yes,Yes,9,88,Yes,Atypical Angina,0
+33,Male,315.0,91.0,80,Current,Heavy,5,No,Yes,No,2,138,No,Typical Angina,0
+26,Male,326.0,91.0,69,Former,Moderate,4,No,No,Yes,6,158,Yes,Atypical Angina,0
+76,Male,193.0,100.0,82,Former,Heavy,4,No,Yes,Yes,1,185,No,Atypical Angina,0
+79,Female,242.0,176.0,72,Current,Heavy,5,Yes,Yes,Yes,10,84,No,Non-anginal Pain,1
+71,Female,175.0,143.0,75,Current,Moderate,1,Yes,Yes,No,9,115,Yes,Atypical Angina,0
+36,Female,199.0,163.0,73,Former,Heavy,7,No,No,Yes,1,129,Yes,Non-anginal Pain,0
+46,Male,262.0,90.0,69,Current,Heavy,9,No,Yes,Yes,3,167,Yes,Asymptomatic,0
+42,Male,201.0,145.0,81,Current,Moderate,0,No,No,Yes,9,109,Yes,Typical Angina,0
+27,Male,191.0,95.0,95,Never,Heavy,5,Yes,Yes,No,7,187,Yes,Typical Angina,0
+38,Male,296.0,97.0,80,Current,Heavy,1,No,Yes,Yes,5,197,Yes,Non-anginal Pain,0
+62,Female,341.0,91.0,85,Never,Heavy,1,No,No,Yes,6,106,Yes,Asymptomatic,1
+69,Female,228.0,157.0,77,Never,Moderate,2,Yes,Yes,No,3,86,No,Typical Angina,1
+34,Female,320.0,140.0,97,Former,Heavy,2,No,No,Yes,8,120,Yes,Atypical Angina,0
+60,Male,281.0,133.0,83,Never,Heavy,4,Yes,Yes,Yes,2,175,No,Typical Angina,1
+34,Female,274.0,177.0,86,Former,Heavy,9,Yes,Yes,Yes,2,95,No,Atypical Angina,0
+69,Male,189.0,167.0,96,Current,Moderate,8,Yes,Yes,Yes,2,108,Yes,Non-anginal Pain,0
+31,Female,267.0,157.0,75,Former,Heavy,9,Yes,Yes,No,3,74,Yes,Non-anginal Pain,0
+44,Female,209.0,145.0,93,Never,Heavy,9,No,No,No,3,195,No,Typical Angina,0
+53,Male,295.0,110.0,89,Former,Heavy,1,Yes,No,Yes,10,71,No,Non-anginal Pain,1
+63,Male,250.0,154.0,69,Never,Heavy,3,Yes,No,No,7,170,Yes,Asymptomatic,1
+50,Male,308.0,166.0,97,Current,Heavy,7,No,No,No,2,116,Yes,Typical Angina,0
+33,Female,231.0,117.0,70,Current,Heavy,6,Yes,No,No,8,122,Yes,Atypical Angina,0
+49,Female,210.0,99.0,79,Never,Heavy,3,Yes,Yes,Yes,4,106,No,Typical Angina,0
+29,Female,238.0,172.0,64,Current,Heavy,6,Yes,No,Yes,5,195,No,Typical Angina,0
+49,Female,168.0,128.0,79,Never,Moderate,5,No,No,Yes,4,176,No,Non-anginal Pain,0
+51,Female,266.0,102.0,86,Never,Heavy,2,Yes,Yes,Yes,2,167,Yes,Atypical Angina,1
+77,Male,214.0,100.0,96,Current,Heavy,8,No,No,No,5,186,No,Asymptomatic,1
+60,Male,207.0,160.0,83,Current,Heavy,4,No,Yes,No,4,106,No,Asymptomatic,1
+71,Female,332.0,145.0,75,Current,Moderate,9,Yes,No,Yes,1,157,Yes,Non-anginal Pain,1
+77,Male,212.0,161.0,98,Former,Moderate,7,Yes,No,Yes,1,128,Yes,Non-anginal Pain,1
+54,Male,311.0,130.0,62,Current,Heavy,5,Yes,No,No,9,104,No,Typical Angina,1
+75,Female,318.0,179.0,87,Current,Heavy,2,Yes,No,Yes,7,104,Yes,Atypical Angina,1
+26,Female,280.0,144.0,60,Never,Heavy,7,Yes,No,No,6,194,No,Atypical Angina,0
+62,Male,171.0,139.0,72,Former,Heavy,4,Yes,No,No,6,79,No,Non-anginal Pain,0
+25,Female,217.0,117.0,92,Current,Heavy,0,Yes,Yes,No,4,148,Yes,Atypical Angina,0
+65,Female,337.0,152.0,81,Former,Heavy,8,No,Yes,No,7,110,No,Typical Angina,1
+51,Female,273.0,163.0,94,Never,Heavy,9,Yes,No,Yes,9,158,No,Typical Angina,1
+73,Female,347.0,134.0,97,Former,Heavy,5,No,Yes,No,3,186,No,Asymptomatic,1
+68,Female,306.0,179.0,77,Current,Heavy,4,No,No,Yes,7,184,Yes,Atypical Angina,1
+42,Female,278.0,158.0,77,Never,Heavy,4,No,Yes,Yes,4,140,Yes,Typical Angina,0
+31,Female,211.0,127.0,68,Former,Heavy,1,No,Yes,Yes,4,139,No,Asymptomatic,0
+41,Male,219.0,136.0,75,Never,Heavy,1,Yes,Yes,Yes,5,198,Yes,Typical Angina,0
+51,Female,223.0,111.0,64,Former,Heavy,4,Yes,Yes,Yes,9,95,Yes,Asymptomatic,1
+75,Female,216.0,123.0,79,Former,Heavy,1,No,Yes,No,9,188,Yes,Atypical Angina,1
+65,Female,197.0,167.0,87,Former,Moderate,8,No,Yes,Yes,1,70,No,Asymptomatic,0
+44,Male,197.0,135.0,85,Former,Heavy,2,Yes,No,Yes,4,111,Yes,Asymptomatic,0
+69,Female,330.0,110.0,70,Never,Moderate,1,Yes,No,No,4,178,No,Asymptomatic,1
+32,Male,283.0,169.0,84,Never,Heavy,8,No,No,No,8,177,No,Atypical Angina,0
+71,Female,162.0,102.0,89,Former,Moderate,1,Yes,Yes,Yes,3,162,Yes,Atypical Angina,0
+48,Male,317.0,132.0,96,Never,Moderate,8,No,Yes,No,6,164,No,Asymptomatic,0
+55,Male,291.0,158.0,87,Current,Heavy,8,No,No,No,7,102,Yes,Typical Angina,1
+49,Male,246.0,135.0,95,Never,Heavy,2,Yes,No,No,7,108,No,Asymptomatic,0
+26,Male,261.0,176.0,83,Former,Heavy,3,No,No,No,5,139,No,Non-anginal Pain,0
+54,Female,201.0,112.0,87,Never,Heavy,7,Yes,Yes,No,5,109,Yes,Asymptomatic,1
+34,Male,275.0,112.0,73,Never,Heavy,5,No,No,Yes,3,168,Yes,Typical Angina,0
+60,Male,297.0,144.0,84,Current,Heavy,2,Yes,Yes,Yes,2,79,Yes,Non-anginal Pain,1
+35,Male,171.0,172.0,70,Former,Heavy,7,Yes,Yes,No,2,107,Yes,Typical Angina,0
+48,Male,242.0,135.0,86,Former,Moderate,7,Yes,Yes,No,7,129,Yes,Typical Angina,0
+27,Male,322.0,122.0,77,Former,Heavy,8,Yes,Yes,Yes,6,74,No,Atypical Angina,0
+35,Male,179.0,104.0,68,Former,Heavy,2,No,Yes,No,4,186,No,Non-anginal Pain,0
+54,Female,297.0,169.0,88,Current,Heavy,1,No,No,No,5,148,No,Asymptomatic,1
+74,Male,299.0,133.0,95,Former,Heavy,3,Yes,Yes,No,9,110,No,Atypical Angina,1
+65,Female,171.0,107.0,92,Former,Moderate,8,No,Yes,Yes,4,169,No,Atypical Angina,0
+37,Female,296.0,175.0,85,Never,Moderate,9,No,Yes,No,10,72,Yes,Typical Angina,0
+67,Female,244.0,124.0,60,Former,Moderate,3,No,Yes,Yes,3,166,No,Asymptomatic,1
+66,Male,333.0,131.0,70,Never,Heavy,0,Yes,No,No,4,106,Yes,Asymptomatic,1
+35,Male,336.0,125.0,81,Never,Moderate,0,No,No,No,4,149,Yes,Typical Angina,0
+59,Female,161.0,113.0,85,Current,Heavy,5,Yes,Yes,No,5,78,Yes,Non-anginal Pain,0
+37,Male,307.0,91.0,90,Never,Moderate,6,No,Yes,Yes,2,127,No,Asymptomatic,0
+37,Male,337.0,134.0,83,Current,Heavy,8,Yes,No,Yes,3,152,No,Asymptomatic,0
+43,Male,212.0,141.0,86,Never,Heavy,0,No,Yes,Yes,4,128,Yes,Asymptomatic,0
+38,Female,198.0,161.0,94,Never,Heavy,8,No,Yes,No,3,167,No,Typical Angina,0
+61,Male,186.0,176.0,99,Former,Heavy,4,Yes,No,No,9,118,No,Non-anginal Pain,0
+25,Female,249.0,95.0,99,Former,Heavy,3,No,No,No,2,93,No,Typical Angina,0
+49,Female,342.0,154.0,92,Current,Moderate,4,Yes,Yes,No,7,151,No,Atypical Angina,0
+52,Male,319.0,123.0,96,Never,Heavy,2,No,No,Yes,8,117,No,Non-anginal Pain,1
+33,Female,175.0,97.0,73,Current,Heavy,5,No,No,Yes,1,114,No,Typical Angina,0
+61,Female,223.0,177.0,74,Former,Heavy,1,Yes,Yes,Yes,7,198,Yes,Atypical Angina,1
+75,Female,246.0,142.0,66,Never,Moderate,9,Yes,No,Yes,7,103,Yes,Non-anginal Pain,1
+34,Male,260.0,134.0,71,Never,Heavy,2,Yes,Yes,No,3,135,Yes,Typical Angina,0
+76,Female,159.0,96.0,65,Never,Moderate,1,No,No,No,2,142,No,Non-anginal Pain,0
+49,Male,166.0,168.0,68,Former,Heavy,0,Yes,Yes,Yes,2,118,No,Non-anginal Pain,0
+41,Female,189.0,163.0,90,Former,Heavy,8,Yes,Yes,Yes,6,116,No,Atypical Angina,0
+37,Male,232.0,169.0,86,Current,Heavy,2,No,No,No,2,168,Yes,Non-anginal Pain,0
+58,Male,162.0,106.0,74,Never,Moderate,6,No,Yes,No,7,194,Yes,Non-anginal Pain,0
+41,Female,289.0,125.0,76,Current,Moderate,9,No,Yes,Yes,5,110,No,Non-anginal Pain,0
+64,Female,285.0,169.0,76,Never,Heavy,0,Yes,No,Yes,9,114,No,Typical Angina,1
+70,Male,205.0,111.0,63,Current,Heavy,6,No,Yes,Yes,1,135,Yes,Non-anginal Pain,1
+32,Female,201.0,142.0,65,Never,Heavy,2,No,No,Yes,9,72,Yes,Non-anginal Pain,0
+36,Female,278.0,114.0,90,Current,Moderate,6,Yes,Yes,Yes,3,123,Yes,Non-anginal Pain,0
+70,Male,173.0,93.0,81,Former,Moderate,5,Yes,Yes,Yes,10,147,No,Typical Angina,0
+75,Female,249.0,177.0,97,Never,Moderate,4,Yes,Yes,No,4,160,No,Atypical Angina,1
+76,Female,171.0,126.0,61,Former,Heavy,2,No,No,Yes,6,165,Yes,Typical Angina,0
+57,Male,317.0,169.0,76,Current,Heavy,1,Yes,No,Yes,7,157,Yes,Non-anginal Pain,1
+43,Male,231.0,107.0,94,Current,Heavy,5,Yes,Yes,No,10,120,Yes,Non-anginal Pain,0
+37,Male,300.0,164.0,80,Former,Moderate,3,No,No,No,4,153,No,Atypical Angina,0
+51,Male,324.0,163.0,98,Former,Heavy,4,Yes,Yes,Yes,6,116,No,Non-anginal Pain,1
+34,Male,238.0,125.0,98,Former,Heavy,7,Yes,No,Yes,8,168,Yes,Atypical Angina,0
+63,Male,210.0,136.0,86,Former,Heavy,8,No,No,No,2,167,No,Non-anginal Pain,1
+63,Female,167.0,133.0,94,Former,Moderate,9,No,Yes,No,2,87,Yes,Atypical Angina,0
+27,Male,344.0,114.0,78,Former,Heavy,1,Yes,No,Yes,9,154,No,Atypical Angina,0
+41,Male,340.0,117.0,72,Former,Moderate,9,Yes,No,Yes,10,191,No,Asymptomatic,0
+72,Female,328.0,140.0,96,Current,Heavy,0,Yes,Yes,Yes,6,98,No,Typical Angina,1
+71,Male,151.0,171.0,69,Never,Heavy,5,No,No,Yes,9,123,No,Typical Angina,0
+65,Male,281.0,126.0,84,Never,Moderate,8,Yes,Yes,No,4,136,Yes,Non-anginal Pain,1
+51,Male,290.0,97.0,89,Current,Heavy,8,Yes,Yes,Yes,10,135,Yes,Non-anginal Pain,1
+55,Male,166.0,113.0,84,Former,Heavy,4,Yes,Yes,No,3,169,No,Typical Angina,0
+44,Female,320.0,99.0,82,Never,Heavy,5,No,No,No,8,101,No,Atypical Angina,0
+39,Male,347.0,154.0,62,Current,Moderate,0,No,No,No,4,77,No,Asymptomatic,0
+40,Female,309.0,166.0,72,Current,Moderate,6,Yes,No,Yes,6,165,No,Asymptomatic,0
+70,Female,183.0,158.0,76,Never,Moderate,7,No,Yes,No,1,135,Yes,Asymptomatic,0
+43,Male,168.0,157.0,76,Current,Heavy,7,Yes,Yes,No,9,116,Yes,Atypical Angina,0
+27,Male,211.0,140.0,78,Former,Moderate,8,Yes,No,Yes,3,95,No,Typical Angina,0
+43,Female,183.0,94.0,72,Current,Heavy,5,Yes,Yes,Yes,9,80,Yes,Atypical Angina,0
+35,Male,175.0,147.0,96,Former,Heavy,9,Yes,No,Yes,8,169,Yes,Non-anginal Pain,0
+42,Male,328.0,114.0,60,Former,Moderate,7,No,No,Yes,6,171,No,Non-anginal Pain,0
+59,Female,240.0,171.0,62,Never,Heavy,2,Yes,No,No,10,137,Yes,Typical Angina,1
+55,Male,183.0,142.0,92,Former,Heavy,3,Yes,Yes,No,10,133,No,Non-anginal Pain,0
+41,Male,161.0,169.0,88,Former,Moderate,4,Yes,No,Yes,4,120,No,Atypical Angina,0
+49,Male,326.0,157.0,63,Never,Heavy,3,Yes,Yes,Yes,10,77,No,Asymptomatic,0
+39,Male,333.0,154.0,77,Former,Moderate,3,Yes,No,No,7,137,Yes,Asymptomatic,0
+69,Male,278.0,172.0,96,Never,Heavy,0,Yes,No,Yes,2,104,Yes,Non-anginal Pain,1
+59,Female,328.0,154.0,93,Current,Heavy,4,Yes,Yes,Yes,6,119,Yes,Typical Angina,1
+76,Female,167.0,176.0,97,Never,Heavy,8,No,No,No,6,71,Yes,Typical Angina,0
+63,Male,255.0,92.0,96,Current,Moderate,3,Yes,No,Yes,5,121,Yes,Asymptomatic,1
+29,Female,348.0,159.0,65,Former,Heavy,0,Yes,Yes,Yes,4,142,Yes,Asymptomatic,0
+27,Male,224.0,135.0,77,Former,Heavy,5,No,Yes,Yes,7,135,No,Asymptomatic,0
+69,Male,168.0,178.0,82,Current,Heavy,2,No,Yes,Yes,10,183,No,Asymptomatic,0
+39,Male,262.0,109.0,95,Current,Heavy,4,Yes,Yes,Yes,1,83,No,Non-anginal Pain,0
+60,Female,163.0,131.0,67,Current,Heavy,5,Yes,No,Yes,3,168,Yes,Non-anginal Pain,0
+76,Male,269.0,156.0,69,Never,Heavy,9,Yes,Yes,No,2,189,No,Typical Angina,1
+65,Female,220.0,131.0,62,Current,Heavy,4,No,Yes,Yes,2,179,No,Non-anginal Pain,1
+55,Female,242.0,146.0,83,Former,Moderate,8,No,Yes,No,2,137,Yes,Asymptomatic,1
+48,Female,188.0,151.0,85,Never,Heavy,4,No,No,Yes,5,142,No,Asymptomatic,0
+69,Female,188.0,179.0,97,Former,Moderate,3,Yes,No,Yes,1,169,Yes,Typical Angina,0
+37,Female,200.0,154.0,74,Never,Heavy,8,No,No,Yes,7,135,Yes,Asymptomatic,0
+76,Male,227.0,104.0,68,Former,Heavy,2,No,Yes,No,6,158,No,Asymptomatic,1
+56,Female,314.0,155.0,65,Former,Heavy,6,No,No,Yes,10,86,Yes,Asymptomatic,1
+76,Female,343.0,90.0,87,Current,Moderate,4,No,Yes,Yes,10,91,Yes,Atypical Angina,1
+46,Male,215.0,138.0,63,Never,Heavy,0,No,Yes,No,6,79,No,Non-anginal Pain,0
+40,Female,332.0,144.0,96,Never,Heavy,1,No,Yes,No,2,99,No,Non-anginal Pain,0
+44,Male,272.0,162.0,81,Former,Moderate,9,Yes,Yes,Yes,10,105,Yes,Atypical Angina,0
+70,Female,197.0,136.0,82,Current,Heavy,8,No,Yes,Yes,7,140,Yes,Atypical Angina,0
+77,Male,257.0,177.0,85,Never,Heavy,8,Yes,Yes,No,2,94,No,Atypical Angina,1
+77,Female,306.0,151.0,95,Former,Heavy,7,No,Yes,Yes,9,192,No,Typical Angina,1
+53,Male,191.0,150.0,73,Current,Heavy,7,Yes,No,Yes,6,113,No,Non-anginal Pain,0
+44,Female,257.0,167.0,98,Current,Heavy,6,No,No,Yes,6,87,Yes,Non-anginal Pain,0
+71,Female,338.0,154.0,76,Current,Moderate,4,No,No,No,6,123,No,Asymptomatic,1
+49,Male,334.0,124.0,89,Former,Moderate,0,No,No,No,10,157,Yes,Typical Angina,0
+72,Female,331.0,178.0,62,Never,Heavy,9,No,Yes,Yes,2,135,Yes,Atypical Angina,1
+37,Male,289.0,141.0,76,Never,Heavy,7,No,No,No,10,83,No,Atypical Angina,0
+79,Female,331.0,117.0,93,Never,Moderate,9,Yes,Yes,No,1,108,Yes,Atypical Angina,1
+59,Male,339.0,172.0,98,Current,Moderate,1,No,Yes,Yes,3,126,No,Typical Angina,1
+26,Female,320.0,109.0,82,Never,Heavy,2,Yes,Yes,No,8,154,No,Non-anginal Pain,0
+46,Male,328.0,99.0,85,Never,Moderate,7,No,No,Yes,7,115,Yes,Typical Angina,0
+73,Female,342.0,108.0,89,Never,Moderate,4,Yes,Yes,Yes,5,144,Yes,Typical Angina,1
+68,Male,286.0,137.0,63,Never,Heavy,0,Yes,Yes,No,3,143,No,Asymptomatic,1
+78,Male,171.0,104.0,64,Never,Moderate,6,Yes,No,No,3,93,Yes,Asymptomatic,0
+49,Male,177.0,118.0,60,Former,Moderate,3,Yes,No,Yes,6,94,Yes,Atypical Angina,0
+55,Female,328.0,122.0,90,Former,Heavy,4,No,No,Yes,9,86,No,Asymptomatic,1
+34,Female,230.0,142.0,97,Never,Heavy,4,No,Yes,No,4,103,Yes,Atypical Angina,0
+73,Male,257.0,125.0,81,Current,Heavy,6,Yes,No,No,4,187,No,Atypical Angina,1
+36,Male,151.0,97.0,99,Current,Moderate,3,Yes,Yes,No,4,128,No,Non-anginal Pain,0
+30,Female,283.0,141.0,75,Current,Heavy,8,No,No,No,5,169,Yes,Non-anginal Pain,0
+79,Female,324.0,102.0,94,Current,Moderate,4,Yes,No,Yes,6,141,Yes,Typical Angina,1
+44,Female,211.0,144.0,93,Current,Heavy,1,No,Yes,Yes,4,83,Yes,Asymptomatic,0
+48,Female,171.0,103.0,69,Never,Heavy,4,No,No,Yes,8,72,Yes,Atypical Angina,0
+78,Female,199.0,130.0,98,Never,Heavy,8,No,Yes,No,3,166,No,Atypical Angina,0
+71,Male,340.0,174.0,81,Former,Heavy,2,No,No,No,3,138,No,Asymptomatic,1
+30,Female,248.0,90.0,91,Former,Moderate,6,No,No,Yes,1,115,No,Typical Angina,0
+31,Male,177.0,145.0,65,Current,Heavy,5,No,No,No,5,110,Yes,Non-anginal Pain,0
+56,Male,168.0,126.0,94,Former,Heavy,0,Yes,No,No,9,171,No,Atypical Angina,0
+26,Female,168.0,128.0,85,Never,Heavy,8,Yes,Yes,Yes,3,191,No,Typical Angina,0
+55,Male,241.0,159.0,67,Former,Heavy,6,No,No,Yes,2,149,No,Non-anginal Pain,1
+37,Male,194.0,147.0,81,Never,Heavy,0,No,No,Yes,8,173,No,Atypical Angina,0
+28,Male,199.0,144.0,84,Never,Moderate,0,Yes,Yes,No,8,159,No,Atypical Angina,0
+68,Female,336.0,160.0,77,Former,Heavy,7,No,No,Yes,10,137,No,Asymptomatic,1
+72,Female,320.0,167.0,96,Never,Heavy,4,No,No,Yes,8,116,Yes,Typical Angina,1
+50,Male,195.0,164.0,73,Current,Moderate,6,Yes,No,No,7,98,No,Non-anginal Pain,0
+46,Male,298.0,138.0,62,Former,Heavy,3,No,Yes,Yes,8,188,No,Non-anginal Pain,0
+61,Female,166.0,171.0,91,Former,Heavy,6,Yes,No,No,6,146,No,Non-anginal Pain,0
+48,Female,349.0,161.0,78,Never,Moderate,5,No,No,No,5,154,Yes,Asymptomatic,0
+41,Male,247.0,139.0,76,Current,Heavy,3,No,Yes,No,6,148,Yes,Non-anginal Pain,0
+48,Female,348.0,137.0,99,Former,Heavy,1,Yes,Yes,No,7,169,Yes,Typical Angina,0
+37,Female,267.0,117.0,85,Never,Heavy,8,Yes,No,Yes,4,103,Yes,Typical Angina,0
+58,Female,349.0,96.0,62,Former,Moderate,7,No,Yes,Yes,8,106,No,Asymptomatic,1
+78,Female,213.0,119.0,99,Current,Heavy,2,No,No,Yes,3,177,No,Non-anginal Pain,1
+58,Male,325.0,110.0,95,Never,Moderate,4,Yes,Yes,Yes,8,194,Yes,Atypical Angina,1
+57,Female,229.0,179.0,63,Never,Heavy,2,No,Yes,No,7,144,No,Atypical Angina,1
+26,Male,162.0,139.0,71,Former,Heavy,7,Yes,Yes,No,6,113,No,Atypical Angina,0
+69,Female,259.0,101.0,82,Current,Moderate,8,No,No,Yes,6,160,Yes,Non-anginal Pain,1
+50,Female,260.0,176.0,82,Current,Heavy,3,No,No,No,7,74,No,Typical Angina,0
+53,Female,190.0,144.0,97,Current,Heavy,5,No,No,Yes,2,120,No,Non-anginal Pain,0
+76,Male,258.0,142.0,95,Former,Moderate,2,Yes,Yes,No,3,91,No,Atypical Angina,1
+30,Male,318.0,168.0,91,Current,Heavy,0,Yes,No,No,2,126,No,Typical Angina,0
+77,Female,206.0,129.0,74,Former,Heavy,5,Yes,No,No,2,120,No,Atypical Angina,1
+60,Male,174.0,156.0,66,Former,Heavy,2,No,No,Yes,3,148,Yes,Atypical Angina,0
+59,Female,318.0,125.0,75,Never,Heavy,1,Yes,No,No,7,136,No,Asymptomatic,1
+43,Female,198.0,149.0,89,Former,Heavy,9,No,No,Yes,2,199,Yes,Atypical Angina,0
+60,Female,266.0,116.0,60,Never,Heavy,9,Yes,No,No,4,163,Yes,Non-anginal Pain,1
+79,Female,281.0,145.0,93,Former,Heavy,8,Yes,No,Yes,8,89,No,Typical Angina,1
+79,Male,221.0,99.0,91,Current,Moderate,0,Yes,No,No,7,186,No,Typical Angina,1
+77,Male,341.0,177.0,74,Current,Heavy,8,Yes,No,No,9,135,No,Typical Angina,1
+78,Female,318.0,133.0,73,Current,Moderate,1,Yes,Yes,No,2,168,No,Asymptomatic,1
+32,Male,157.0,102.0,82,Former,Heavy,3,No,No,No,8,139,No,Asymptomatic,0
+28,Male,168.0,113.0,94,Former,Heavy,6,No,Yes,No,9,177,No,Typical Angina,0
+35,Male,267.0,175.0,60,Current,Heavy,1,Yes,Yes,Yes,7,191,Yes,Typical Angina,0
+79,Male,222.0,150.0,65,Current,Moderate,6,No,Yes,Yes,1,71,No,Asymptomatic,1
+33,Female,231.0,119.0,97,Never,Heavy,9,Yes,Yes,Yes,10,175,Yes,Typical Angina,0
+29,Male,239.0,139.0,89,Never,Moderate,2,Yes,No,No,6,159,No,Non-anginal Pain,0
+58,Female,259.0,148.0,94,Current,Moderate,6,No,No,No,6,164,Yes,Non-anginal Pain,1
+46,Male,161.0,140.0,85,Current,Moderate,4,Yes,No,No,8,136,No,Asymptomatic,0
+74,Male,266.0,128.0,80,Never,Heavy,5,No,Yes,No,5,108,No,Non-anginal Pain,1
+69,Female,267.0,140.0,72,Current,Heavy,0,Yes,No,Yes,4,169,Yes,Atypical Angina,1
+46,Female,281.0,152.0,94,Never,Heavy,9,No,Yes,Yes,3,186,No,Typical Angina,0
+25,Male,268.0,155.0,64,Current,Heavy,9,No,Yes,Yes,6,89,Yes,Asymptomatic,0
+69,Female,186.0,177.0,98,Former,Heavy,8,Yes,No,Yes,5,70,No,Typical Angina,0
+26,Female,245.0,178.0,73,Former,Heavy,0,Yes,Yes,No,4,163,No,Asymptomatic,0
+49,Male,208.0,106.0,98,Never,Moderate,4,Yes,Yes,Yes,9,198,No,Atypical Angina,0
+69,Male,233.0,152.0,74,Current,Heavy,2,Yes,No,No,9,96,No,Asymptomatic,1
+26,Female,207.0,121.0,70,Never,Heavy,5,Yes,Yes,Yes,3,123,Yes,Non-anginal Pain,0
+71,Female,304.0,140.0,81,Never,Heavy,9,Yes,Yes,Yes,9,178,No,Typical Angina,1
+66,Female,169.0,176.0,82,Never,Heavy,2,No,No,Yes,7,143,No,Atypical Angina,0
+51,Male,193.0,121.0,91,Never,Heavy,3,Yes,Yes,Yes,4,73,No,Atypical Angina,0
+33,Female,243.0,148.0,69,Current,Heavy,9,No,No,Yes,6,114,Yes,Asymptomatic,0
+49,Male,167.0,159.0,76,Current,Heavy,4,No,Yes,No,3,173,No,Non-anginal Pain,0
+46,Female,290.0,131.0,68,Current,Heavy,1,Yes,No,No,3,121,No,Non-anginal Pain,0
+41,Male,300.0,162.0,74,Current,Heavy,9,No,Yes,No,6,136,Yes,Atypical Angina,0
+71,Female,327.0,106.0,62,Current,Heavy,1,Yes,No,No,5,127,No,Atypical Angina,1
+68,Male,321.0,104.0,71,Current,Moderate,6,Yes,Yes,No,9,161,No,Atypical Angina,1
+72,Male,298.0,138.0,71,Never,Moderate,5,No,Yes,No,1,172,No,Typical Angina,1
+70,Female,321.0,135.0,76,Never,Heavy,9,No,Yes,No,5,199,Yes,Non-anginal Pain,1
+55,Female,160.0,162.0,62,Former,Moderate,9,Yes,No,Yes,2,155,Yes,Asymptomatic,0
+37,Female,301.0,100.0,93,Former,Heavy,8,No,Yes,Yes,2,98,No,Asymptomatic,0
+64,Female,244.0,129.0,92,Former,Heavy,6,Yes,No,Yes,7,116,No,Atypical Angina,1
+48,Female,279.0,164.0,74,Current,Heavy,7,No,Yes,No,2,119,No,Atypical Angina,0
+27,Male,262.0,141.0,61,Never,Moderate,5,No,Yes,Yes,3,90,Yes,Asymptomatic,0
+38,Male,200.0,94.0,67,Current,Moderate,9,No,No,No,7,141,No,Asymptomatic,0
+48,Male,154.0,160.0,84,Never,Heavy,5,No,Yes,No,2,135,No,Non-anginal Pain,0
+38,Female,270.0,162.0,92,Former,Heavy,5,Yes,No,No,3,199,No,Asymptomatic,0
+39,Female,223.0,148.0,63,Never,Heavy,0,Yes,Yes,Yes,9,117,No,Asymptomatic,0
+33,Male,322.0,173.0,73,Current,Heavy,8,Yes,Yes,No,6,109,No,Atypical Angina,0
+25,Female,165.0,127.0,69,Former,Heavy,5,No,Yes,No,8,198,Yes,Asymptomatic,0
+48,Male,310.0,162.0,84,Current,Heavy,0,No,No,Yes,5,182,Yes,Asymptomatic,0
+78,Male,259.0,96.0,99,Former,Heavy,1,No,No,No,6,165,No,Asymptomatic,1
+58,Female,257.0,171.0,73,Never,Moderate,2,Yes,Yes,Yes,6,70,No,Atypical Angina,1
+52,Female,196.0,113.0,60,Former,Heavy,0,Yes,No,No,7,135,No,Atypical Angina,0
+36,Female,288.0,164.0,67,Never,Moderate,1,No,No,No,7,70,No,Typical Angina,0
+35,Male,204.0,97.0,95,Current,Heavy,4,Yes,Yes,Yes,5,117,Yes,Atypical Angina,0
+64,Female,156.0,90.0,67,Never,Heavy,6,No,No,Yes,1,167,Yes,Non-anginal Pain,0
+27,Female,323.0,145.0,63,Current,Heavy,0,Yes,No,Yes,7,127,Yes,Non-anginal Pain,0
+46,Female,345.0,175.0,61,Former,Heavy,9,Yes,No,No,10,88,Yes,Non-anginal Pain,0
+66,Male,152.0,175.0,95,Never,Heavy,9,Yes,No,No,2,73,Yes,Non-anginal Pain,0
+42,Male,318.0,118.0,87,Current,Moderate,2,Yes,No,Yes,8,121,Yes,Atypical Angina,0
+47,Male,169.0,133.0,74,Former,Moderate,8,Yes,No,Yes,1,95,Yes,Typical Angina,0
+47,Female,185.0,109.0,94,Current,Heavy,1,No,No,No,6,122,No,Atypical Angina,0
+59,Female,166.0,139.0,64,Former,Heavy,9,Yes,Yes,Yes,3,145,No,Atypical Angina,0
+44,Female,296.0,99.0,63,Never,Heavy,6,Yes,Yes,No,7,185,Yes,Asymptomatic,0
+72,Male,328.0,117.0,63,Never,Heavy,4,Yes,No,No,9,138,No,Non-anginal Pain,1
+51,Male,318.0,168.0,92,Former,Moderate,3,No,No,Yes,9,164,Yes,Asymptomatic,1
+51,Female,303.0,97.0,76,Current,Heavy,8,Yes,Yes,No,6,119,Yes,Non-anginal Pain,1
+64,Female,168.0,135.0,73,Current,Moderate,0,No,Yes,No,9,88,No,Typical Angina,0
+54,Female,188.0,163.0,80,Current,Moderate,7,Yes,Yes,No,3,106,No,Atypical Angina,0
+64,Male,194.0,100.0,78,Current,Heavy,6,Yes,Yes,Yes,3,189,No,Non-anginal Pain,0
+76,Male,179.0,94.0,85,Current,Heavy,8,Yes,No,No,4,179,Yes,Non-anginal Pain,0
+32,Male,262.0,123.0,99,Never,Moderate,0,No,No,No,2,100,No,Asymptomatic,0
+74,Female,185.0,129.0,86,Never,Heavy,0,Yes,Yes,Yes,6,171,Yes,Non-anginal Pain,0
+50,Female,328.0,158.0,71,Never,Heavy,8,Yes,No,Yes,10,82,No,Atypical Angina,0
+34,Female,291.0,107.0,72,Never,Heavy,3,No,Yes,Yes,3,177,Yes,Asymptomatic,0
+52,Female,184.0,122.0,84,Current,Heavy,2,No,Yes,No,7,133,No,Typical Angina,0
+42,Female,241.0,139.0,69,Former,Heavy,4,No,Yes,Yes,1,116,No,Asymptomatic,0
+44,Female,213.0,97.0,88,Never,Heavy,8,No,No,No,1,176,Yes,Non-anginal Pain,0
+28,Male,226.0,167.0,60,Current,Heavy,3,Yes,No,Yes,2,185,No,Atypical Angina,0
+75,Male,254.0,111.0,95,Current,Heavy,7,Yes,No,No,2,83,Yes,Atypical Angina,1
+36,Male,235.0,154.0,92,Never,Heavy,2,Yes,No,Yes,6,177,Yes,Non-anginal Pain,0
+59,Male,236.0,152.0,62,Never,Moderate,5,Yes,No,Yes,9,177,Yes,Non-anginal Pain,1
+26,Female,193.0,134.0,60,Current,Heavy,5,No,Yes,Yes,6,146,Yes,Typical Angina,0
+64,Female,191.0,178.0,75,Never,Moderate,9,Yes,No,No,5,97,No,Asymptomatic,0
+45,Male,306.0,160.0,84,Current,Moderate,1,No,Yes,No,6,124,No,Atypical Angina,0
+27,Male,198.0,147.0,81,Current,Heavy,3,No,Yes,No,7,123,No,Typical Angina,0
+34,Female,178.0,133.0,89,Current,Heavy,1,No,No,Yes,6,151,Yes,Non-anginal Pain,0
+37,Male,310.0,94.0,84,Current,Heavy,5,Yes,No,No,9,93,Yes,Typical Angina,0
+75,Male,283.0,139.0,96,Former,Moderate,6,No,Yes,No,3,98,Yes,Typical Angina,1
+67,Male,282.0,153.0,77,Current,Heavy,7,No,Yes,No,9,85,Yes,Typical Angina,1
+38,Male,245.0,119.0,80,Never,Moderate,7,Yes,No,No,10,192,Yes,Atypical Angina,0
+79,Male,279.0,98.0,97,Former,Moderate,9,No,No,No,1,148,Yes,Typical Angina,1
+64,Female,298.0,169.0,94,Current,Heavy,0,Yes,Yes,Yes,4,129,Yes,Typical Angina,1
+50,Female,268.0,159.0,78,Current,Heavy,4,No,Yes,Yes,5,189,Yes,Asymptomatic,0
+43,Male,285.0,154.0,80,Never,Heavy,6,No,Yes,Yes,5,115,Yes,Non-anginal Pain,0
+56,Male,270.0,176.0,75,Former,Heavy,7,Yes,Yes,No,9,136,Yes,Non-anginal Pain,1
+46,Female,195.0,93.0,92,Former,Moderate,8,Yes,Yes,Yes,1,121,Yes,Atypical Angina,0
+68,Female,206.0,104.0,65,Never,Heavy,9,Yes,No,Yes,8,102,No,Atypical Angina,1
+37,Female,329.0,96.0,65,Current,Heavy,1,Yes,No,Yes,4,192,Yes,Atypical Angina,0
+71,Male,269.0,119.0,74,Never,Moderate,4,Yes,No,No,10,100,No,Asymptomatic,1
+61,Female,341.0,142.0,92,Never,Moderate,7,No,Yes,No,8,123,No,Typical Angina,1
+62,Female,300.0,125.0,99,Current,Heavy,8,No,No,No,10,128,Yes,Typical Angina,1
+77,Female,248.0,96.0,72,Current,Moderate,2,No,Yes,Yes,9,97,No,Asymptomatic,1
+37,Female,252.0,164.0,99,Former,Heavy,6,No,No,No,1,166,Yes,Typical Angina,0
+44,Male,251.0,94.0,77,Former,Heavy,9,Yes,No,Yes,2,94,No,Atypical Angina,0
+48,Female,187.0,132.0,72,Former,Heavy,1,Yes,Yes,Yes,3,198,No,Non-anginal Pain,0
+70,Male,238.0,144.0,74,Never,Heavy,1,No,Yes,Yes,6,126,No,Atypical Angina,1
+26,Male,224.0,107.0,89,Current,Heavy,5,No,Yes,Yes,6,171,Yes,Typical Angina,0
+41,Male,159.0,124.0,71,Never,Heavy,0,Yes,Yes,No,4,193,No,Typical Angina,0
+38,Female,202.0,178.0,93,Former,Moderate,7,Yes,Yes,Yes,5,183,Yes,Asymptomatic,0
+59,Female,295.0,167.0,88,Current,Heavy,9,No,No,No,10,187,Yes,Atypical Angina,1
+63,Female,299.0,110.0,90,Former,Heavy,0,No,Yes,Yes,9,162,No,Asymptomatic,1
+66,Female,241.0,112.0,98,Current,Moderate,1,No,Yes,No,4,169,No,Atypical Angina,1
+42,Male,297.0,144.0,77,Never,Moderate,2,No,No,Yes,9,194,No,Non-anginal Pain,0
+63,Female,158.0,160.0,67,Former,Heavy,6,Yes,Yes,Yes,9,134,Yes,Asymptomatic,0
+60,Male,289.0,144.0,81,Never,Heavy,5,No,Yes,No,1,145,No,Typical Angina,1
+38,Female,340.0,176.0,98,Current,Heavy,5,No,No,No,1,155,Yes,Non-anginal Pain,0
+70,Female,287.0,143.0,69,Current,Moderate,2,No,Yes,Yes,3,140,Yes,Non-anginal Pain,1
+55,Male,271.0,166.0,69,Former,Heavy,3,No,No,Yes,5,199,Yes,Non-anginal Pain,1
+35,Male,176.0,90.0,69,Former,Heavy,9,Yes,Yes,No,7,81,Yes,Typical Angina,0
+34,Male,234.0,112.0,90,Current,Moderate,8,Yes,No,Yes,9,171,No,Non-anginal Pain,0
+62,Male,278.0,137.0,61,Current,Heavy,7,No,Yes,Yes,7,101,No,Asymptomatic,1
+70,Female,331.0,178.0,93,Never,Moderate,4,No,Yes,Yes,6,111,Yes,Non-anginal Pain,1
+76,Male,244.0,139.0,79,Former,Moderate,5,Yes,Yes,No,2,71,Yes,Non-anginal Pain,1
+59,Male,246.0,128.0,98,Never,Heavy,9,Yes,Yes,Yes,3,158,Yes,Atypical Angina,1
+58,Male,163.0,111.0,64,Former,Moderate,3,No,Yes,No,6,136,No,Typical Angina,0
+70,Female,346.0,103.0,81,Never,Heavy,4,No,Yes,No,6,135,Yes,Atypical Angina,1
+51,Female,287.0,165.0,86,Former,Heavy,3,No,No,Yes,4,73,No,Non-anginal Pain,1
+29,Female,207.0,113.0,81,Never,Heavy,3,No,Yes,Yes,6,188,Yes,Atypical Angina,0
+54,Female,339.0,130.0,61,Never,Moderate,9,Yes,Yes,No,3,185,Yes,Asymptomatic,1
+63,Female,321.0,165.0,64,Former,Moderate,0,No,Yes,No,6,131,Yes,Typical Angina,1
+38,Male,180.0,136.0,84,Current,Heavy,2,No,Yes,Yes,7,162,No,Asymptomatic,0
+49,Male,213.0,134.0,83,Never,Heavy,2,Yes,Yes,Yes,7,149,No,Typical Angina,0
+54,Male,212.0,121.0,61,Current,Heavy,9,No,No,Yes,7,182,Yes,Non-anginal Pain,1
+62,Female,297.0,111.0,87,Never,Heavy,3,No,Yes,No,7,70,No,Atypical Angina,1
+71,Female,204.0,134.0,72,Current,Heavy,4,No,No,Yes,5,160,No,Asymptomatic,1
+29,Female,166.0,132.0,82,Current,Moderate,2,No,No,No,4,107,Yes,Atypical Angina,0
+53,Male,222.0,119.0,91,Current,Moderate,8,No,No,No,5,199,Yes,Typical Angina,1
+34,Male,338.0,104.0,83,Never,Heavy,9,Yes,Yes,Yes,7,105,No,Non-anginal Pain,0
+67,Male,169.0,127.0,90,Never,Heavy,8,No,Yes,Yes,8,171,Yes,Asymptomatic,0
+63,Male,218.0,158.0,76,Current,Heavy,4,No,Yes,Yes,2,95,Yes,Non-anginal Pain,1
+47,Female,254.0,174.0,68,Former,Heavy,4,No,No,No,10,168,No,Non-anginal Pain,0
+75,Female,157.0,96.0,89,Never,Heavy,1,Yes,Yes,Yes,1,140,Yes,Asymptomatic,0
+27,Male,296.0,129.0,67,Former,Heavy,5,Yes,No,No,10,119,Yes,Non-anginal Pain,0
+73,Male,240.0,178.0,81,Former,Heavy,1,Yes,Yes,No,9,113,Yes,Atypical Angina,1
+52,Female,278.0,170.0,71,Never,Heavy,2,Yes,No,No,3,85,No,Non-anginal Pain,1
+39,Female,278.0,174.0,74,Former,Heavy,9,No,No,Yes,10,119,Yes,Non-anginal Pain,0
+26,Female,240.0,174.0,62,Former,Heavy,2,No,Yes,Yes,6,196,Yes,Typical Angina,0
+54,Female,250.0,159.0,95,Current,Heavy,9,Yes,Yes,No,7,178,No,Asymptomatic,1
+70,Male,168.0,114.0,99,Former,Heavy,7,Yes,Yes,No,2,196,No,Atypical Angina,0
+35,Male,325.0,163.0,99,Never,Heavy,3,Yes,No,Yes,6,83,Yes,Asymptomatic,0
+77,Male,163.0,91.0,73,Former,Heavy,3,No,Yes,Yes,8,145,No,Non-anginal Pain,0
+35,Male,159.0,154.0,67,Current,Heavy,5,No,Yes,No,4,147,No,Asymptomatic,0
+42,Male,248.0,94.0,92,Former,Heavy,0,No,Yes,No,4,145,No,Asymptomatic,0
+75,Male,244.0,103.0,72,Current,Heavy,2,No,No,No,8,131,No,Atypical Angina,1
+59,Male,316.0,96.0,66,Former,Heavy,2,No,No,No,5,198,Yes,Atypical Angina,1
+45,Male,169.0,150.0,98,Former,Heavy,5,No,Yes,No,8,182,No,Atypical Angina,0
+35,Male,272.0,130.0,85,Former,Moderate,2,Yes,No,No,6,166,No,Typical Angina,0
+73,Male,338.0,140.0,62,Current,Moderate,8,Yes,No,Yes,10,113,Yes,Non-anginal Pain,1
+54,Male,276.0,103.0,63,Never,Heavy,1,No,Yes,Yes,8,86,No,Atypical Angina,1
+71,Male,345.0,132.0,71,Never,Heavy,9,No,No,Yes,3,117,No,Non-anginal Pain,1
+27,Female,253.0,96.0,65,Never,Moderate,6,No,Yes,Yes,2,189,No,Non-anginal Pain,0
+66,Male,157.0,153.0,89,Former,Moderate,3,No,No,Yes,8,107,Yes,Atypical Angina,0
+62,Female,225.0,119.0,96,Former,Heavy,8,No,No,Yes,9,138,Yes,Typical Angina,1
+28,Female,293.0,127.0,88,Never,Heavy,5,Yes,No,No,3,156,Yes,Asymptomatic,0
+37,Female,153.0,171.0,76,Former,Heavy,6,Yes,Yes,No,7,129,Yes,Typical Angina,0
+78,Male,236.0,166.0,74,Never,Heavy,8,No,No,No,2,130,Yes,Asymptomatic,1
+50,Female,195.0,159.0,67,Current,Heavy,5,No,Yes,No,7,77,Yes,Typical Angina,0
+56,Male,203.0,129.0,86,Former,Moderate,6,No,No,Yes,8,195,No,Typical Angina,1
+40,Female,339.0,179.0,71,Former,Heavy,4,No,No,Yes,7,179,No,Asymptomatic,0
+37,Male,274.0,174.0,65,Current,Heavy,1,Yes,Yes,Yes,10,175,Yes,Typical Angina,0
+59,Male,265.0,173.0,87,Current,Moderate,5,No,Yes,No,2,91,No,Typical Angina,1
+61,Male,192.0,104.0,75,Never,Heavy,2,No,Yes,No,4,199,Yes,Typical Angina,0
+48,Male,214.0,158.0,83,Former,Moderate,8,Yes,Yes,No,8,106,Yes,Asymptomatic,0
+54,Male,331.0,173.0,89,Never,Heavy,8,Yes,No,Yes,7,79,Yes,Non-anginal Pain,1
+52,Female,156.0,117.0,63,Never,Moderate,5,No,No,Yes,7,116,No,Non-anginal Pain,0
+40,Male,164.0,90.0,90,Former,Heavy,1,No,No,No,10,144,No,Asymptomatic,0
+35,Female,269.0,161.0,65,Never,Heavy,1,Yes,Yes,Yes,5,171,Yes,Asymptomatic,0
+39,Female,196.0,171.0,61,Current,Heavy,9,No,No,No,3,178,Yes,Typical Angina,0
+55,Male,280.0,165.0,62,Current,Moderate,4,Yes,No,Yes,7,165,Yes,Asymptomatic,1
+39,Female,334.0,139.0,71,Never,Moderate,5,No,Yes,No,6,141,No,Atypical Angina,0
+74,Female,348.0,167.0,74,Current,Moderate,5,No,Yes,No,1,147,No,Atypical Angina,1
+36,Male,265.0,90.0,69,Former,Heavy,8,Yes,Yes,Yes,6,105,No,Asymptomatic,0
+26,Female,345.0,122.0,91,Former,Heavy,3,No,No,No,9,99,No,Asymptomatic,0
+56,Male,274.0,105.0,79,Current,Moderate,3,No,No,Yes,5,174,No,Non-anginal Pain,1
+66,Female,290.0,115.0,63,Current,Heavy,3,Yes,Yes,No,1,175,No,Typical Angina,1
+36,Female,258.0,131.0,95,Never,Heavy,6,No,No,No,8,112,Yes,Non-anginal Pain,0
+61,Female,152.0,179.0,95,Current,Moderate,9,No,No,Yes,4,104,Yes,Typical Angina,0
+28,Male,212.0,116.0,96,Former,Heavy,5,No,Yes,No,2,118,No,Asymptomatic,0
+27,Male,328.0,172.0,97,Never,Heavy,1,No,No,No,1,179,No,Asymptomatic,0
+43,Male,187.0,172.0,80,Current,Heavy,8,Yes,Yes,No,1,163,No,Typical Angina,0
+34,Female,240.0,162.0,62,Former,Heavy,8,No,No,No,8,116,No,Typical Angina,0
+28,Female,213.0,133.0,68,Never,Moderate,1,No,Yes,Yes,4,137,No,Non-anginal Pain,0
+27,Male,254.0,139.0,91,Former,Heavy,1,Yes,Yes,Yes,6,196,Yes,Asymptomatic,0
+41,Male,167.0,114.0,82,Current,Heavy,8,No,Yes,Yes,5,180,Yes,Non-anginal Pain,0
+34,Female,313.0,166.0,68,Current,Heavy,5,Yes,Yes,Yes,9,86,Yes,Non-anginal Pain,0
+49,Male,238.0,90.0,71,Former,Moderate,7,No,No,Yes,3,116,Yes,Atypical Angina,0
+77,Male,180.0,126.0,77,Former,Heavy,0,No,No,No,7,146,No,Atypical Angina,0
+31,Male,204.0,165.0,75,Never,Moderate,7,No,No,Yes,5,192,Yes,Non-anginal Pain,0
+72,Female,279.0,162.0,94,Current,Moderate,7,No,Yes,Yes,2,157,Yes,Asymptomatic,1
+59,Male,306.0,150.0,89,Former,Moderate,6,Yes,Yes,No,2,75,Yes,Atypical Angina,1
+69,Male,320.0,120.0,64,Never,Heavy,9,No,Yes,Yes,10,153,No,Non-anginal Pain,1
+54,Female,287.0,95.0,75,Never,Heavy,9,Yes,Yes,Yes,5,94,No,Asymptomatic,1
+61,Female,323.0,143.0,64,Current,Heavy,3,No,Yes,Yes,9,124,Yes,Typical Angina,1
+59,Male,276.0,168.0,85,Never,Heavy,2,No,Yes,Yes,9,134,No,Atypical Angina,1
+52,Female,265.0,155.0,69,Never,Heavy,9,No,Yes,No,9,106,No,Atypical Angina,1
+58,Female,181.0,135.0,83,Never,Heavy,0,No,No,Yes,2,105,No,Typical Angina,0
+49,Female,214.0,130.0,60,Former,Heavy,7,No,Yes,Yes,3,87,No,Non-anginal Pain,0
+70,Female,188.0,154.0,86,Current,Moderate,2,No,No,Yes,4,109,No,Asymptomatic,0
+73,Male,211.0,170.0,90,Current,Moderate,1,Yes,No,Yes,5,141,No,Atypical Angina,1
+31,Female,234.0,160.0,60,Former,Heavy,8,Yes,No,Yes,8,165,Yes,Atypical Angina,0
+68,Female,332.0,125.0,74,Current,Moderate,8,No,Yes,No,6,103,No,Non-anginal Pain,1
+62,Male,347.0,136.0,84,Never,Heavy,5,Yes,Yes,No,1,91,Yes,Typical Angina,1
+48,Male,231.0,159.0,87,Never,Moderate,0,No,No,No,2,126,No,Asymptomatic,0
+49,Female,211.0,103.0,73,Former,Heavy,4,No,No,Yes,9,127,Yes,Atypical Angina,0
+45,Female,162.0,108.0,85,Current,Heavy,3,Yes,No,Yes,7,112,Yes,Non-anginal Pain,0
+28,Male,297.0,111.0,94,Never,Heavy,1,Yes,Yes,No,2,183,No,Atypical Angina,0
+78,Female,150.0,101.0,62,Current,Moderate,0,Yes,Yes,Yes,1,119,No,Non-anginal Pain,0
+78,Female,192.0,146.0,61,Current,Heavy,2,No,Yes,No,10,88,No,Typical Angina,0
+38,Male,325.0,134.0,67,Never,Heavy,2,No,Yes,Yes,8,128,Yes,Asymptomatic,0
+47,Male,186.0,161.0,69,Current,Moderate,0,No,No,No,2,122,No,Non-anginal Pain,0
+32,Female,269.0,151.0,68,Former,Heavy,9,No,Yes,No,9,199,Yes,Atypical Angina,0
+45,Female,333.0,163.0,64,Former,Heavy,4,No,Yes,No,9,73,No,Atypical Angina,0
+42,Female,288.0,161.0,82,Former,Heavy,1,Yes,No,Yes,7,71,No,Asymptomatic,0
+46,Male,294.0,109.0,97,Current,Moderate,6,No,No,Yes,8,127,No,Asymptomatic,0
+45,Male,204.0,145.0,60,Never,Heavy,5,Yes,No,Yes,9,92,Yes,Non-anginal Pain,0
+69,Male,242.0,108.0,65,Never,Moderate,2,No,Yes,No,10,188,Yes,Asymptomatic,1
+37,Male,229.0,95.0,74,Former,Heavy,2,Yes,Yes,No,4,175,Yes,Typical Angina,0
+31,Female,202.0,178.0,91,Current,Heavy,2,No,Yes,No,4,80,No,Atypical Angina,0
+76,Male,228.0,112.0,82,Current,Moderate,7,Yes,No,Yes,10,110,Yes,Typical Angina,1
+61,Female,224.0,174.0,80,Current,Moderate,2,No,No,No,6,177,No,Atypical Angina,1
+28,Male,237.0,136.0,62,Never,Moderate,2,Yes,Yes,Yes,5,89,Yes,Typical Angina,0
+78,Male,210.0,100.0,99,Current,Heavy,5,Yes,Yes,Yes,9,120,Yes,Typical Angina,1
+75,Male,263.0,113.0,73,Former,Heavy,6,No,Yes,Yes,10,178,Yes,Atypical Angina,1
+74,Female,334.0,158.0,81,Current,Heavy,9,No,No,Yes,1,150,Yes,Asymptomatic,1
+76,Female,159.0,143.0,83,Never,Heavy,5,No,Yes,Yes,9,96,No,Asymptomatic,0
+71,Female,216.0,110.0,79,Current,Heavy,1,Yes,No,Yes,2,140,No,Asymptomatic,1
+59,Female,298.0,125.0,92,Never,Heavy,6,No,Yes,Yes,10,134,No,Atypical Angina,1
+40,Female,183.0,134.0,73,Never,Heavy,2,No,Yes,Yes,6,167,No,Atypical Angina,0
+59,Female,264.0,121.0,99,Former,Heavy,4,No,No,No,2,115,No,Atypical Angina,1
+49,Male,277.0,155.0,85,Former,Heavy,0,Yes,No,No,3,83,No,Typical Angina,0
+40,Female,288.0,101.0,84,Never,Heavy,9,Yes,Yes,No,7,153,Yes,Non-anginal Pain,0
+48,Female,257.0,148.0,65,Never,Moderate,3,No,No,No,1,102,No,Non-anginal Pain,0
+49,Male,212.0,140.0,75,Never,Heavy,9,Yes,No,No,9,139,No,Atypical Angina,0
+39,Female,283.0,157.0,73,Former,Heavy,5,No,Yes,No,6,107,No,Typical Angina,0
+43,Male,231.0,97.0,62,Current,Heavy,9,No,No,No,7,190,Yes,Asymptomatic,0
+37,Female,215.0,157.0,78,Former,Heavy,3,No,No,Yes,6,138,No,Typical Angina,0
+75,Male,225.0,145.0,87,Never,Heavy,4,Yes,Yes,No,5,125,Yes,Atypical Angina,1
+48,Female,190.0,144.0,86,Current,Moderate,7,No,Yes,Yes,10,138,No,Non-anginal Pain,0
+72,Male,343.0,113.0,89,Current,Moderate,2,No,No,Yes,10,166,No,Non-anginal Pain,1
+49,Male,234.0,105.0,70,Former,Heavy,9,No,Yes,No,8,170,Yes,Atypical Angina,0
+74,Male,187.0,129.0,94,Current,Heavy,4,No,No,Yes,1,196,No,Typical Angina,0
+72,Female,323.0,103.0,91,Never,Moderate,1,Yes,Yes,Yes,6,153,No,Typical Angina,1
+64,Male,218.0,114.0,90,Current,Moderate,4,No,Yes,No,3,147,Yes,Asymptomatic,1
+55,Female,321.0,167.0,88,Former,Moderate,0,No,No,No,5,83,Yes,Asymptomatic,1
+26,Male,160.0,104.0,67,Former,Heavy,7,No,Yes,Yes,10,167,No,Non-anginal Pain,0
+79,Female,292.0,100.0,67,Current,Moderate,6,Yes,Yes,Yes,2,140,No,Non-anginal Pain,1
+41,Male,192.0,131.0,87,Current,Heavy,5,Yes,Yes,Yes,5,126,Yes,Asymptomatic,0
+74,Male,279.0,92.0,86,Former,Moderate,3,No,Yes,Yes,7,189,Yes,Typical Angina,1
+40,Female,188.0,117.0,62,Former,Heavy,3,No,Yes,Yes,9,188,No,Asymptomatic,0
+32,Male,313.0,119.0,98,Never,Heavy,9,Yes,No,Yes,5,88,Yes,Asymptomatic,0
+75,Female,328.0,111.0,71,Former,Heavy,5,No,Yes,Yes,4,95,No,Atypical Angina,1
+49,Female,280.0,175.0,90,Never,Heavy,3,Yes,Yes,No,6,82,No,Asymptomatic,0
+34,Male,319.0,98.0,84,Current,Heavy,3,No,No,No,7,181,No,Atypical Angina,0
+75,Male,155.0,142.0,86,Former,Heavy,1,No,No,Yes,6,100,No,Non-anginal Pain,0
+41,Male,228.0,98.0,96,Former,Heavy,4,Yes,Yes,No,1,194,No,Atypical Angina,0
+39,Male,212.0,177.0,99,Current,Heavy,5,Yes,Yes,No,8,85,Yes,Atypical Angina,0
+75,Male,310.0,101.0,81,Current,Heavy,5,Yes,No,Yes,10,139,No,Asymptomatic,1
+76,Female,191.0,120.0,78,Never,Heavy,3,Yes,No,No,6,103,No,Typical Angina,0
+26,Male,157.0,176.0,67,Current,Moderate,4,No,Yes,No,8,165,No,Typical Angina,0
+39,Female,318.0,129.0,67,Never,Heavy,7,Yes,No,No,7,95,Yes,Typical Angina,0
+77,Male,307.0,166.0,95,Former,Moderate,1,No,Yes,Yes,3,186,No,Asymptomatic,1
+66,Male,342.0,145.0,97,Current,Moderate,8,Yes,Yes,Yes,3,166,Yes,Typical Angina,1
+45,Female,256.0,126.0,65,Former,Heavy,3,Yes,Yes,Yes,6,121,Yes,Non-anginal Pain,0
+52,Female,336.0,167.0,94,Never,Heavy,2,No,No,No,7,73,Yes,Asymptomatic,1
+34,Female,231.0,152.0,68,Former,Heavy,9,No,No,No,4,89,No,Non-anginal Pain,0
+62,Male,213.0,141.0,93,Current,Moderate,2,No,Yes,No,6,158,Yes,Non-anginal Pain,1
+63,Male,256.0,172.0,72,Current,Heavy,3,Yes,No,No,3,119,Yes,Atypical Angina,1
+76,Male,156.0,91.0,80,Former,Heavy,0,No,Yes,No,7,74,Yes,Non-anginal Pain,0
+37,Female,209.0,99.0,99,Never,Moderate,0,Yes,No,Yes,4,85,No,Asymptomatic,0
+43,Male,307.0,116.0,78,Former,Heavy,7,Yes,Yes,Yes,1,161,No,Non-anginal Pain,0
+55,Male,301.0,117.0,63,Current,Heavy,2,Yes,Yes,Yes,7,95,No,Typical Angina,1
+43,Male,303.0,171.0,72,Current,Heavy,3,Yes,Yes,Yes,2,199,No,Asymptomatic,0
+47,Female,305.0,99.0,70,Former,Moderate,5,No,Yes,No,6,145,Yes,Non-anginal Pain,0
+68,Female,211.0,131.0,81,Never,Heavy,0,No,Yes,No,7,95,Yes,Non-anginal Pain,1
+26,Female,280.0,147.0,63,Former,Moderate,0,No,No,No,6,71,Yes,Typical Angina,0
+73,Male,346.0,124.0,80,Former,Moderate,0,Yes,Yes,Yes,8,90,No,Typical Angina,1
+75,Female,201.0,121.0,71,Never,Heavy,3,No,No,No,7,83,No,Non-anginal Pain,1
+66,Male,320.0,147.0,74,Never,Heavy,2,Yes,Yes,Yes,8,120,No,Typical Angina,1
+66,Male,227.0,143.0,82,Current,Heavy,4,No,Yes,Yes,3,79,No,Asymptomatic,1
+65,Female,344.0,94.0,80,Former,Heavy,6,No,Yes,Yes,7,91,Yes,Typical Angina,1
+42,Female,298.0,114.0,69,Current,Heavy,0,Yes,Yes,No,3,156,No,Non-anginal Pain,0
+49,Female,226.0,103.0,75,Former,Heavy,8,Yes,Yes,Yes,10,74,No,Atypical Angina,0
+61,Female,165.0,100.0,84,Current,Heavy,0,No,No,Yes,6,140,Yes,Atypical Angina,0
+76,Male,299.0,178.0,62,Current,Moderate,1,No,Yes,Yes,8,157,No,Atypical Angina,1
+25,Male,176.0,116.0,90,Current,Moderate,6,No,Yes,Yes,6,129,No,Typical Angina,0
+26,Male,152.0,165.0,61,Current,Heavy,8,No,Yes,No,2,186,Yes,Typical Angina,0
+29,Male,332.0,116.0,97,Former,Heavy,3,No,Yes,No,7,84,Yes,Asymptomatic,0
+33,Female,333.0,108.0,68,Never,Heavy,5,Yes,No,No,2,88,Yes,Asymptomatic,0
+43,Female,152.0,99.0,75,Current,Heavy,9,No,Yes,Yes,3,169,No,Non-anginal Pain,0
+49,Female,240.0,154.0,71,Current,Heavy,8,Yes,Yes,Yes,10,165,Yes,Asymptomatic,0
+28,Female,280.0,151.0,77,Never,Moderate,7,No,No,Yes,9,167,Yes,Asymptomatic,0
+30,Male,150.0,165.0,72,Former,Heavy,8,Yes,No,Yes,9,70,No,Non-anginal Pain,0
+63,Female,331.0,127.0,99,Former,Heavy,8,No,Yes,No,1,73,Yes,Asymptomatic,1
+57,Female,178.0,113.0,93,Never,Heavy,4,Yes,Yes,Yes,9,81,Yes,Non-anginal Pain,0
+32,Male,237.0,172.0,83,Current,Heavy,2,No,No,No,9,198,No,Atypical Angina,0
+69,Male,272.0,165.0,81,Former,Moderate,9,Yes,Yes,Yes,2,156,No,Non-anginal Pain,1
+37,Male,267.0,100.0,97,Current,Moderate,0,Yes,Yes,No,10,158,Yes,Non-anginal Pain,0
+36,Male,285.0,135.0,81,Current,Heavy,7,Yes,No,Yes,5,127,No,Atypical Angina,0
+47,Female,189.0,129.0,69,Former,Heavy,8,No,Yes,Yes,4,90,No,Non-anginal Pain,0
+30,Female,340.0,171.0,91,Current,Heavy,3,Yes,Yes,Yes,3,159,No,Asymptomatic,0
+76,Male,253.0,128.0,78,Current,Moderate,4,Yes,Yes,No,8,182,Yes,Typical Angina,1
+47,Male,177.0,166.0,97,Current,Heavy,5,Yes,Yes,Yes,1,82,No,Non-anginal Pain,0
+40,Female,323.0,117.0,80,Never,Heavy,9,Yes,Yes,No,1,187,No,Non-anginal Pain,0
+73,Female,216.0,117.0,81,Current,Heavy,6,Yes,No,Yes,1,96,No,Atypical Angina,1
+69,Male,329.0,142.0,83,Former,Heavy,3,No,No,Yes,8,90,No,Asymptomatic,1
+46,Female,215.0,111.0,88,Current,Moderate,9,Yes,Yes,Yes,7,162,No,Typical Angina,0
+66,Female,278.0,176.0,75,Current,Heavy,6,Yes,Yes,Yes,2,89,No,Asymptomatic,1
+42,Male,293.0,143.0,80,Never,Heavy,6,Yes,No,Yes,10,127,No,Non-anginal Pain,0
+69,Male,329.0,150.0,78,Former,Heavy,7,No,No,Yes,10,140,Yes,Non-anginal Pain,1
+53,Male,218.0,140.0,94,Never,Moderate,9,Yes,No,Yes,6,140,Yes,Asymptomatic,1
+42,Female,206.0,127.0,97,Current,Heavy,2,Yes,Yes,Yes,4,163,No,Typical Angina,0
+58,Male,333.0,103.0,70,Never,Moderate,1,No,No,Yes,4,146,No,Non-anginal Pain,1
+27,Female,288.0,127.0,90,Current,Heavy,8,No,No,No,10,158,Yes,Typical Angina,0
+41,Female,286.0,91.0,65,Former,Heavy,0,Yes,Yes,Yes,6,189,No,Atypical Angina,0
+51,Male,325.0,153.0,94,Never,Heavy,6,No,No,No,2,161,Yes,Non-anginal Pain,1
+60,Female,208.0,170.0,70,Never,Heavy,4,No,No,No,6,147,No,Atypical Angina,1
+75,Female,193.0,142.0,80,Never,Moderate,1,No,Yes,Yes,9,96,No,Non-anginal Pain,0
+36,Male,341.0,93.0,87,Current,Heavy,3,No,Yes,No,2,117,Yes,Typical Angina,0
+50,Male,286.0,144.0,94,Former,Heavy,6,No,Yes,No,5,149,No,Typical Angina,0
+66,Male,154.0,128.0,69,Former,Heavy,1,No,No,Yes,3,169,Yes,Non-anginal Pain,0
+25,Female,345.0,105.0,98,Former,Heavy,7,No,No,Yes,10,125,No,Non-anginal Pain,0
+74,Male,235.0,146.0,85,Never,Moderate,7,Yes,No,Yes,10,146,No,Atypical Angina,1
+25,Male,200.0,176.0,85,Current,Moderate,4,Yes,No,Yes,6,160,Yes,Typical Angina,0
+73,Male,282.0,165.0,60,Never,Heavy,7,No,Yes,No,8,76,Yes,Non-anginal Pain,1
+72,Female,155.0,172.0,69,Current,Heavy,8,Yes,No,Yes,4,100,No,Non-anginal Pain,0
+45,Female,296.0,99.0,95,Never,Heavy,2,No,No,Yes,7,120,Yes,Atypical Angina,0
+70,Male,295.0,135.0,88,Former,Moderate,0,Yes,Yes,No,7,147,Yes,Asymptomatic,1
+78,Male,212.0,161.0,87,Former,Moderate,4,Yes,No,No,9,121,Yes,Typical Angina,1
+47,Male,236.0,151.0,92,Current,Heavy,0,No,Yes,Yes,1,139,No,Asymptomatic,0
+71,Female,161.0,175.0,78,Never,Heavy,1,No,Yes,Yes,2,114,No,Non-anginal Pain,0
+47,Female,233.0,164.0,79,Former,Heavy,3,Yes,Yes,No,7,134,Yes,Typical Angina,0
+50,Female,255.0,155.0,68,Former,Heavy,6,No,No,No,10,128,Yes,Atypical Angina,0
+40,Male,159.0,142.0,78,Former,Heavy,2,No,No,No,6,138,No,Atypical Angina,0
+50,Female,317.0,148.0,71,Current,Moderate,1,No,No,Yes,4,116,Yes,Typical Angina,0
+57,Female,288.0,104.0,71,Never,Moderate,6,No,Yes,Yes,2,81,No,Typical Angina,1
+36,Male,189.0,177.0,63,Never,Heavy,5,Yes,No,No,4,113,Yes,Non-anginal Pain,0
+25,Male,314.0,142.0,61,Former,Heavy,7,Yes,No,No,10,190,No,Typical Angina,0
+40,Female,193.0,174.0,92,Never,Heavy,0,Yes,No,No,9,92,No,Non-anginal Pain,0
+68,Male,251.0,124.0,98,Never,Heavy,3,No,Yes,No,5,101,No,Asymptomatic,1
+70,Male,240.0,144.0,61,Never,Moderate,0,Yes,Yes,No,3,125,No,Non-anginal Pain,1
+32,Male,179.0,98.0,69,Former,Moderate,6,No,Yes,No,4,119,No,Non-anginal Pain,0
+53,Male,165.0,160.0,90,Never,Heavy,1,Yes,Yes,No,2,191,Yes,Typical Angina,0
+62,Male,284.0,122.0,65,Never,Heavy,2,No,Yes,No,8,153,Yes,Non-anginal Pain,1
+63,Female,272.0,96.0,78,Current,Heavy,4,Yes,No,Yes,7,101,Yes,Typical Angina,1
+67,Male,240.0,139.0,61,Never,Moderate,2,No,No,No,7,185,Yes,Asymptomatic,1
+44,Male,269.0,99.0,77,Former,Heavy,6,Yes,No,No,6,196,No,Typical Angina,0
+71,Male,168.0,138.0,88,Never,Heavy,7,Yes,Yes,Yes,4,127,Yes,Asymptomatic,0
+50,Female,198.0,156.0,60,Current,Heavy,7,No,No,Yes,10,76,No,Non-anginal Pain,0
+59,Female,333.0,90.0,75,Current,Moderate,3,No,Yes,No,6,177,No,Asymptomatic,1
+72,Female,280.0,139.0,62,Current,Heavy,0,No,Yes,Yes,10,156,Yes,Typical Angina,1
+64,Male,232.0,144.0,79,Former,Heavy,5,No,No,Yes,7,104,No,Asymptomatic,1
+49,Male,201.0,172.0,75,Current,Heavy,2,Yes,No,Yes,5,162,No,Asymptomatic,0
+76,Female,225.0,97.0,72,Never,Heavy,4,No,Yes,Yes,9,171,Yes,Non-anginal Pain,1
+54,Female,333.0,101.0,75,Current,Moderate,9,Yes,Yes,Yes,5,173,Yes,Typical Angina,1
+76,Male,231.0,93.0,77,Current,Moderate,0,No,No,Yes,9,184,No,Typical Angina,1
+74,Female,187.0,150.0,73,Never,Heavy,9,No,No,No,1,111,No,Atypical Angina,0
+66,Female,321.0,168.0,95,Former,Heavy,2,No,Yes,Yes,4,199,Yes,Atypical Angina,1
+62,Female,200.0,170.0,66,Current,Heavy,5,No,No,No,1,86,Yes,Asymptomatic,0
+62,Female,244.0,127.0,68,Current,Heavy,4,Yes,Yes,No,10,137,Yes,Asymptomatic,1
+67,Female,333.0,92.0,86,Never,Heavy,8,No,No,No,5,117,Yes,Asymptomatic,1
+31,Male,343.0,144.0,62,Current,Moderate,3,Yes,No,Yes,9,165,Yes,Non-anginal Pain,0
+49,Female,259.0,143.0,94,Never,Moderate,5,Yes,No,Yes,1,172,No,Typical Angina,0
+27,Male,282.0,146.0,89,Never,Moderate,8,No,Yes,Yes,2,146,No,Typical Angina,0
+59,Female,164.0,104.0,70,Current,Heavy,9,Yes,No,Yes,7,195,Yes,Typical Angina,0
+70,Female,200.0,95.0,74,Former,Heavy,8,Yes,Yes,Yes,5,107,No,Non-anginal Pain,0
+54,Male,346.0,90.0,82,Never,Heavy,8,Yes,Yes,No,8,159,No,Asymptomatic,1
+66,Male,318.0,133.0,79,Current,Moderate,1,Yes,Yes,No,7,180,No,Atypical Angina,1
+37,Male,233.0,170.0,76,Current,Heavy,0,Yes,Yes,No,9,196,Yes,Asymptomatic,0
+74,Female,270.0,163.0,61,Former,Moderate,0,No,No,Yes,3,99,Yes,Typical Angina,1
+74,Female,184.0,147.0,80,Current,Moderate,7,Yes,No,No,5,149,Yes,Atypical Angina,0
+33,Female,330.0,142.0,98,Current,Heavy,8,Yes,Yes,No,3,75,Yes,Atypical Angina,0
+43,Female,342.0,107.0,86,Current,Heavy,3,No,No,No,4,98,Yes,Atypical Angina,0
+49,Male,343.0,106.0,89,Former,Heavy,3,Yes,No,Yes,10,70,No,Asymptomatic,0
+31,Female,279.0,154.0,63,Current,Heavy,0,No,No,No,8,79,Yes,Atypical Angina,0
+48,Male,342.0,158.0,71,Never,Heavy,6,Yes,Yes,Yes,7,138,No,Atypical Angina,0
+26,Female,319.0,131.0,85,Current,Heavy,9,No,No,No,5,171,Yes,Typical Angina,0
+46,Male,169.0,125.0,74,Never,Moderate,4,Yes,Yes,Yes,7,111,Yes,Typical Angina,0
+51,Male,338.0,175.0,75,Never,Moderate,9,No,Yes,Yes,4,102,Yes,Typical Angina,1
+66,Male,297.0,178.0,75,Never,Heavy,9,Yes,No,No,9,98,Yes,Atypical Angina,1
+77,Male,248.0,136.0,74,Current,Moderate,9,Yes,Yes,No,4,126,Yes,Atypical Angina,1
+58,Female,342.0,175.0,89,Former,Heavy,4,No,Yes,No,1,194,Yes,Typical Angina,1
+68,Male,289.0,176.0,70,Former,Moderate,0,No,No,Yes,6,129,Yes,Typical Angina,1
+62,Female,198.0,133.0,93,Former,Moderate,2,No,No,No,2,78,Yes,Atypical Angina,0
+25,Male,304.0,177.0,82,Current,Moderate,5,Yes,No,No,9,170,Yes,Asymptomatic,0
+45,Male,305.0,160.0,77,Current,Heavy,9,No,No,Yes,3,135,No,Typical Angina,0
+37,Female,340.0,118.0,97,Current,Moderate,0,Yes,No,Yes,5,123,Yes,Non-anginal Pain,0
+68,Male,166.0,103.0,88,Never,Heavy,1,Yes,No,Yes,5,182,No,Typical Angina,0
+45,Female,187.0,115.0,86,Former,Heavy,0,No,Yes,No,7,157,No,Non-anginal Pain,0
+44,Female,185.0,148.0,64,Former,Moderate,9,Yes,Yes,No,3,120,No,Atypical Angina,0
+40,Female,194.0,159.0,83,Never,Heavy,0,Yes,Yes,Yes,10,111,No,Atypical Angina,0
+30,Female,321.0,95.0,97,Former,Heavy,7,No,No,Yes,8,135,Yes,Typical Angina,0
+59,Female,281.0,154.0,80,Never,Heavy,0,Yes,Yes,No,6,177,No,Non-anginal Pain,1
+51,Male,273.0,179.0,71,Current,Heavy,4,No,Yes,No,10,71,No,Atypical Angina,1
+31,Female,226.0,163.0,69,Never,Moderate,7,Yes,Yes,No,10,110,No,Asymptomatic,0
+54,Female,313.0,108.0,79,Never,Moderate,7,No,No,Yes,8,122,No,Non-anginal Pain,1
+63,Female,284.0,120.0,71,Never,Moderate,7,No,No,No,2,74,No,Typical Angina,1
+67,Female,207.0,126.0,87,Former,Heavy,9,No,No,No,1,88,Yes,Atypical Angina,1
+67,Female,296.0,90.0,82,Never,Heavy,9,Yes,No,No,2,123,No,Atypical Angina,1
+49,Female,330.0,94.0,66,Former,Heavy,0,Yes,Yes,No,4,129,Yes,Atypical Angina,0
+78,Male,331.0,169.0,86,Current,Heavy,5,Yes,No,No,6,189,Yes,Atypical Angina,1
+32,Female,216.0,132.0,75,Never,Moderate,6,No,Yes,No,7,185,No,Atypical Angina,0
+43,Male,272.0,107.0,76,Current,Moderate,6,Yes,No,Yes,7,94,Yes,Atypical Angina,0
+49,Female,294.0,112.0,72,Never,Moderate,7,No,No,Yes,6,118,No,Typical Angina,0
+45,Male,171.0,174.0,93,Former,Moderate,6,Yes,No,Yes,7,118,Yes,Asymptomatic,0
+42,Male,182.0,138.0,74,Current,Moderate,0,No,Yes,No,1,192,Yes,Non-anginal Pain,0
+57,Female,289.0,123.0,99,Never,Moderate,1,Yes,No,Yes,6,189,Yes,Atypical Angina,1
+57,Female,185.0,126.0,94,Never,Moderate,1,No,Yes,No,5,106,No,Typical Angina,0
+56,Female,262.0,116.0,89,Former,Moderate,4,No,Yes,No,1,196,Yes,Non-anginal Pain,1
+29,Female,309.0,149.0,64,Former,Moderate,5,No,No,Yes,10,159,No,Atypical Angina,0
+73,Male,205.0,102.0,80,Former,Moderate,3,Yes,No,No,3,161,Yes,Non-anginal Pain,1
+52,Male,175.0,162.0,78,Current,Heavy,8,Yes,No,No,8,132,Yes,Typical Angina,0
+64,Female,241.0,171.0,81,Current,Heavy,6,Yes,No,No,7,176,No,Non-anginal Pain,1
+61,Female,228.0,124.0,97,Never,Moderate,8,Yes,No,No,3,179,Yes,Atypical Angina,1
+31,Female,333.0,168.0,93,Current,Moderate,4,No,No,No,6,184,No,Asymptomatic,0
+59,Female,178.0,110.0,93,Former,Heavy,7,Yes,No,Yes,2,89,Yes,Typical Angina,0
+55,Female,187.0,117.0,75,Never,Moderate,5,Yes,No,Yes,8,172,No,Non-anginal Pain,0
+51,Male,150.0,91.0,79,Never,Heavy,9,Yes,No,Yes,8,130,No,Atypical Angina,0
+79,Male,158.0,110.0,73,Never,Moderate,3,No,No,No,3,71,No,Atypical Angina,0
+76,Female,220.0,171.0,91,Former,Heavy,3,Yes,Yes,Yes,5,135,Yes,Asymptomatic,1
+69,Female,272.0,122.0,97,Current,Heavy,1,Yes,No,No,5,118,No,Atypical Angina,1
+60,Male,150.0,131.0,79,Current,Heavy,3,No,Yes,No,5,169,No,Atypical Angina,0
+66,Male,297.0,130.0,72,Current,Heavy,2,Yes,No,Yes,7,175,Yes,Typical Angina,1
+64,Female,243.0,124.0,77,Former,Heavy,0,No,Yes,No,10,133,Yes,Typical Angina,1
+61,Female,163.0,101.0,93,Former,Heavy,6,Yes,Yes,No,6,163,No,Non-anginal Pain,0
+44,Female,297.0,155.0,70,Former,Heavy,1,No,No,No,5,111,Yes,Typical Angina,0
+69,Male,215.0,109.0,93,Current,Heavy,4,No,Yes,Yes,6,192,No,Typical Angina,1
+50,Female,167.0,115.0,79,Current,Heavy,5,No,Yes,Yes,10,91,No,Typical Angina,0
+67,Male,342.0,146.0,70,Former,Moderate,2,No,No,No,7,136,No,Asymptomatic,1
+51,Male,225.0,170.0,88,Former,Moderate,4,No,Yes,Yes,3,173,No,Typical Angina,1
+62,Male,229.0,155.0,97,Former,Heavy,5,No,No,No,5,101,Yes,Typical Angina,1
+31,Female,194.0,131.0,91,Never,Moderate,1,Yes,Yes,No,10,186,Yes,Non-anginal Pain,0
+42,Male,253.0,104.0,82,Former,Heavy,3,No,No,No,6,172,Yes,Non-anginal Pain,0
+46,Male,218.0,140.0,65,Former,Heavy,5,Yes,No,No,7,186,No,Asymptomatic,0
+53,Female,151.0,158.0,78,Current,Heavy,9,No,No,Yes,8,122,No,Non-anginal Pain,0
+71,Female,269.0,120.0,63,Never,Heavy,7,Yes,No,Yes,3,116,No,Asymptomatic,1
+64,Male,328.0,178.0,72,Current,Heavy,9,No,Yes,No,6,144,Yes,Typical Angina,1
+28,Female,261.0,139.0,90,Never,Moderate,4,No,Yes,Yes,7,170,Yes,Atypical Angina,0
+63,Female,316.0,120.0,77,Current,Moderate,8,No,No,No,7,116,No,Typical Angina,1
+66,Female,215.0,116.0,66,Current,Heavy,0,Yes,Yes,No,10,116,No,Asymptomatic,1
+51,Male,198.0,137.0,69,Never,Heavy,2,No,No,No,6,173,Yes,Asymptomatic,0
+29,Female,218.0,93.0,78,Never,Heavy,2,No,Yes,Yes,1,110,Yes,Typical Angina,0
+70,Male,254.0,157.0,76,Current,Heavy,1,Yes,Yes,Yes,7,131,No,Asymptomatic,1
+52,Male,339.0,124.0,77,Former,Moderate,0,No,Yes,Yes,7,95,Yes,Typical Angina,1
+55,Female,265.0,109.0,83,Current,Moderate,7,Yes,No,No,10,183,Yes,Asymptomatic,1
+38,Female,224.0,93.0,67,Former,Heavy,3,No,Yes,Yes,1,154,No,Typical Angina,0
+48,Male,163.0,128.0,93,Former,Moderate,2,No,No,No,8,117,Yes,Asymptomatic,0
+25,Female,167.0,137.0,93,Former,Heavy,9,Yes,No,No,5,87,No,Atypical Angina,0
+34,Male,308.0,94.0,64,Current,Moderate,3,Yes,Yes,Yes,7,183,No,Non-anginal Pain,0
+50,Male,222.0,91.0,90,Current,Moderate,7,Yes,Yes,Yes,4,99,No,Typical Angina,0
+31,Male,341.0,130.0,89,Current,Heavy,9,No,No,Yes,6,127,No,Typical Angina,0
+25,Female,190.0,152.0,76,Current,Heavy,6,Yes,Yes,Yes,3,152,No,Asymptomatic,0
+59,Female,154.0,114.0,99,Former,Heavy,6,No,No,Yes,7,182,Yes,Atypical Angina,0
+68,Female,223.0,170.0,71,Former,Moderate,4,No,Yes,No,7,104,No,Asymptomatic,1
+56,Male,243.0,115.0,71,Former,Heavy,3,No,Yes,Yes,2,72,No,Typical Angina,1
+59,Male,265.0,147.0,72,Never,Heavy,4,Yes,No,Yes,5,109,Yes,Asymptomatic,1
+28,Male,283.0,139.0,65,Never,Moderate,3,No,No,Yes,6,159,No,Non-anginal Pain,0
+79,Male,287.0,97.0,72,Never,Moderate,7,Yes,No,No,2,83,Yes,Atypical Angina,1
+63,Female,202.0,113.0,82,Current,Moderate,3,No,Yes,Yes,4,168,No,Typical Angina,1
+72,Female,314.0,103.0,92,Current,Heavy,7,No,Yes,Yes,2,81,Yes,Typical Angina,1
+39,Female,227.0,142.0,81,Former,Heavy,9,No,Yes,Yes,7,139,No,Atypical Angina,0
+37,Female,283.0,115.0,80,Former,Moderate,6,Yes,Yes,No,4,86,No,Atypical Angina,0
+46,Male,189.0,112.0,71,Never,Heavy,6,No,No,Yes,3,129,Yes,Typical Angina,0
+53,Male,257.0,112.0,69,Former,Moderate,5,Yes,No,Yes,3,93,Yes,Atypical Angina,1
+27,Female,246.0,160.0,75,Never,Heavy,2,No,Yes,Yes,5,94,No,Typical Angina,0
+50,Female,219.0,152.0,88,Current,Moderate,2,Yes,No,No,10,193,Yes,Atypical Angina,0
+62,Male,312.0,133.0,73,Never,Heavy,2,Yes,No,No,10,187,No,Non-anginal Pain,1
+72,Male,247.0,156.0,94,Never,Heavy,8,Yes,No,Yes,5,119,Yes,Non-anginal Pain,1
+73,Female,317.0,171.0,79,Never,Moderate,9,No,No,Yes,8,139,Yes,Asymptomatic,1
+66,Male,164.0,154.0,85,Former,Heavy,2,No,Yes,Yes,9,71,No,Typical Angina,0
+57,Female,198.0,116.0,66,Former,Heavy,9,No,No,No,9,111,No,Asymptomatic,0
+29,Female,324.0,174.0,77,Never,Heavy,2,Yes,Yes,No,3,99,No,Non-anginal Pain,0
+52,Male,198.0,142.0,68,Never,Heavy,0,No,Yes,No,4,136,Yes,Atypical Angina,0
+56,Male,191.0,172.0,70,Former,Heavy,5,Yes,Yes,No,10,148,Yes,Non-anginal Pain,0
+25,Female,201.0,111.0,72,Never,Heavy,5,No,Yes,Yes,4,161,No,Atypical Angina,0
+36,Female,160.0,136.0,95,Former,Heavy,5,No,Yes,Yes,4,116,Yes,Non-anginal Pain,0
+58,Female,165.0,166.0,65,Former,Heavy,7,No,Yes,No,2,171,No,Asymptomatic,0
+44,Female,343.0,174.0,83,Never,Heavy,9,No,Yes,No,7,146,Yes,Typical Angina,0
+28,Male,323.0,113.0,72,Former,Heavy,0,Yes,Yes,Yes,8,82,No,Non-anginal Pain,0
+37,Female,298.0,179.0,62,Current,Heavy,9,Yes,No,No,9,82,No,Typical Angina,0
+56,Male,247.0,113.0,76,Never,Heavy,1,Yes,No,No,9,86,Yes,Asymptomatic,1
+41,Female,328.0,96.0,69,Former,Moderate,0,No,Yes,No,8,190,Yes,Atypical Angina,0
+70,Female,180.0,168.0,72,Former,Heavy,3,No,No,No,6,104,Yes,Non-anginal Pain,0
+79,Male,264.0,142.0,70,Current,Heavy,4,Yes,Yes,No,6,111,No,Atypical Angina,1
+65,Male,182.0,157.0,94,Former,Heavy,0,No,No,No,1,184,Yes,Asymptomatic,0
+53,Female,193.0,164.0,89,Current,Moderate,4,No,No,Yes,10,152,No,Typical Angina,0
+37,Female,309.0,98.0,88,Current,Moderate,6,No,No,No,9,175,No,Asymptomatic,0
+78,Male,308.0,139.0,69,Never,Heavy,2,No,Yes,No,2,80,Yes,Asymptomatic,1
+40,Female,236.0,162.0,88,Former,Heavy,4,Yes,No,Yes,10,177,No,Non-anginal Pain,0
+64,Female,203.0,92.0,75,Current,Heavy,8,No,No,No,1,183,No,Non-anginal Pain,1
+55,Male,300.0,121.0,99,Never,Heavy,2,Yes,Yes,No,10,116,No,Atypical Angina,1
+53,Male,209.0,130.0,81,Former,Moderate,3,Yes,Yes,Yes,8,99,Yes,Typical Angina,1
+33,Female,273.0,104.0,87,Former,Heavy,0,Yes,Yes,Yes,9,106,Yes,Atypical Angina,0
+54,Male,294.0,168.0,63,Never,Heavy,0,No,Yes,Yes,2,175,No,Asymptomatic,1
+47,Female,285.0,118.0,95,Never,Moderate,5,Yes,Yes,Yes,6,163,Yes,Asymptomatic,0
+40,Female,177.0,95.0,70,Former,Moderate,2,Yes,Yes,Yes,6,158,No,Typical Angina,0
+73,Female,252.0,175.0,80,Current,Heavy,6,Yes,No,Yes,7,192,Yes,Typical Angina,1
+52,Male,301.0,179.0,99,Current,Heavy,3,No,No,Yes,7,115,No,Atypical Angina,1
+65,Male,231.0,151.0,83,Never,Heavy,3,No,No,No,3,103,No,Atypical Angina,1
+73,Male,184.0,107.0,81,Former,Moderate,9,No,No,Yes,4,140,Yes,Non-anginal Pain,0
+57,Male,320.0,99.0,83,Former,Heavy,8,Yes,Yes,No,9,184,No,Asymptomatic,1
+63,Female,302.0,134.0,98,Never,Heavy,4,Yes,Yes,Yes,4,167,No,Atypical Angina,1
+76,Female,309.0,116.0,70,Never,Heavy,8,Yes,Yes,No,7,191,No,Typical Angina,1
+58,Female,242.0,95.0,63,Never,Heavy,1,No,No,Yes,10,168,No,Typical Angina,1
+42,Female,343.0,102.0,87,Never,Moderate,9,Yes,Yes,Yes,8,196,Yes,Asymptomatic,0
+30,Male,315.0,161.0,92,Never,Heavy,9,No,Yes,Yes,4,133,Yes,Typical Angina,0
+35,Male,328.0,148.0,79,Former,Moderate,2,Yes,No,Yes,8,128,Yes,Atypical Angina,0
+30,Male,159.0,98.0,65,Current,Moderate,4,Yes,Yes,No,6,174,No,Non-anginal Pain,0
+51,Female,218.0,114.0,62,Current,Moderate,2,No,Yes,Yes,7,176,No,Atypical Angina,1
+48,Female,339.0,164.0,63,Former,Heavy,0,No,No,Yes,2,98,No,Asymptomatic,0
+65,Male,151.0,107.0,64,Former,Moderate,4,Yes,Yes,Yes,10,70,No,Typical Angina,0
+64,Female,333.0,113.0,63,Current,Heavy,2,Yes,Yes,No,3,95,Yes,Asymptomatic,1
+42,Female,261.0,122.0,92,Never,Heavy,0,No,No,No,6,128,No,Atypical Angina,0
+42,Male,156.0,111.0,95,Current,Heavy,9,Yes,Yes,Yes,7,152,Yes,Asymptomatic,0
+48,Male,221.0,116.0,64,Never,Heavy,0,Yes,No,No,4,92,Yes,Asymptomatic,0
+26,Female,241.0,120.0,67,Current,Heavy,5,No,Yes,Yes,6,172,No,Non-anginal Pain,0
+76,Male,216.0,139.0,64,Current,Heavy,2,Yes,No,Yes,2,182,No,Asymptomatic,1
+36,Female,341.0,104.0,90,Never,Moderate,0,No,No,No,8,179,Yes,Typical Angina,0
+33,Male,212.0,120.0,78,Former,Heavy,9,Yes,Yes,No,2,150,Yes,Atypical Angina,0
+51,Male,227.0,147.0,61,Former,Heavy,9,Yes,Yes,No,1,111,Yes,Non-anginal Pain,1
+68,Male,265.0,90.0,89,Never,Heavy,5,Yes,No,No,8,107,No,Asymptomatic,1
+45,Female,157.0,115.0,75,Current,Heavy,2,Yes,Yes,No,10,175,No,Asymptomatic,0
+58,Female,312.0,134.0,79,Current,Heavy,3,Yes,No,No,7,198,Yes,Atypical Angina,1
+35,Female,162.0,102.0,82,Never,Heavy,5,No,Yes,No,8,149,No,Atypical Angina,0
+48,Female,231.0,153.0,65,Current,Heavy,8,No,No,No,2,72,No,Atypical Angina,0
+33,Female,198.0,178.0,67,Current,Heavy,3,No,No,Yes,3,97,No,Non-anginal Pain,0
+65,Male,282.0,150.0,69,Never,Moderate,4,No,No,Yes,4,189,Yes,Typical Angina,1
+50,Female,227.0,161.0,95,Current,Moderate,9,Yes,Yes,Yes,10,97,No,Typical Angina,0
+34,Male,186.0,134.0,82,Current,Heavy,5,Yes,No,No,1,132,No,Atypical Angina,0
+37,Male,162.0,130.0,78,Former,Heavy,7,No,No,No,4,106,Yes,Atypical Angina,0
+62,Male,206.0,177.0,83,Former,Moderate,5,Yes,Yes,Yes,5,110,Yes,Non-anginal Pain,1
+33,Male,274.0,140.0,82,Former,Heavy,5,Yes,No,No,7,147,Yes,Typical Angina,0
+41,Female,320.0,159.0,61,Former,Moderate,6,No,Yes,Yes,7,144,Yes,Asymptomatic,0
+37,Male,334.0,166.0,72,Current,Heavy,9,No,No,Yes,10,82,No,Atypical Angina,0
+64,Female,152.0,145.0,87,Never,Heavy,2,Yes,Yes,Yes,7,97,No,Atypical Angina,0
+41,Male,228.0,162.0,72,Current,Heavy,4,Yes,No,No,4,139,Yes,Atypical Angina,0
+46,Male,341.0,158.0,73,Former,Moderate,8,No,No,Yes,8,193,Yes,Typical Angina,0
+29,Male,252.0,144.0,84,Never,Heavy,2,No,Yes,Yes,8,170,Yes,Typical Angina,0
+42,Male,347.0,141.0,61,Never,Heavy,7,No,Yes,No,1,155,No,Non-anginal Pain,0
+55,Male,305.0,110.0,62,Never,Heavy,9,No,No,Yes,5,163,Yes,Asymptomatic,1
+50,Female,281.0,120.0,92,Current,Heavy,7,No,Yes,Yes,6,106,Yes,Non-anginal Pain,0
+72,Male,242.0,175.0,71,Former,Heavy,5,No,No,Yes,9,132,No,Non-anginal Pain,1
+55,Female,219.0,166.0,89,Former,Heavy,5,Yes,No,No,8,113,No,Atypical Angina,1
+45,Male,284.0,91.0,71,Current,Heavy,8,Yes,Yes,No,5,106,Yes,Non-anginal Pain,0
+65,Female,303.0,162.0,74,Never,Heavy,5,No,Yes,Yes,10,135,No,Typical Angina,1
+70,Female,253.0,138.0,61,Former,Moderate,0,No,No,Yes,9,179,No,Non-anginal Pain,1
+58,Female,166.0,161.0,70,Never,Heavy,1,No,No,No,1,150,Yes,Typical Angina,0
+74,Male,255.0,112.0,99,Former,Moderate,8,Yes,Yes,No,8,84,No,Non-anginal Pain,1
+63,Female,187.0,178.0,69,Current,Heavy,4,No,No,No,5,128,No,Non-anginal Pain,0
+25,Female,305.0,100.0,76,Current,Heavy,2,Yes,No,No,9,107,No,Asymptomatic,0
+36,Female,161.0,178.0,98,Never,Moderate,7,No,Yes,No,4,185,Yes,Typical Angina,0
+79,Male,245.0,132.0,71,Current,Moderate,6,Yes,No,No,2,185,No,Typical Angina,1
+73,Female,226.0,164.0,61,Never,Moderate,0,Yes,Yes,Yes,2,144,No,Non-anginal Pain,1
+28,Female,243.0,91.0,84,Current,Heavy,8,Yes,No,Yes,9,138,No,Asymptomatic,0
+27,Female,239.0,143.0,87,Current,Heavy,0,Yes,Yes,No,1,78,Yes,Typical Angina,0
+26,Female,298.0,162.0,67,Never,Moderate,3,Yes,Yes,Yes,10,98,No,Asymptomatic,0
+29,Male,224.0,118.0,69,Never,Heavy,1,Yes,Yes,No,5,145,No,Non-anginal Pain,0
+69,Female,223.0,147.0,66,Former,Heavy,4,Yes,Yes,Yes,1,118,No,Non-anginal Pain,1
+38,Female,217.0,104.0,65,Never,Moderate,2,Yes,Yes,Yes,2,75,Yes,Atypical Angina,0
+37,Female,349.0,148.0,62,Former,Moderate,5,No,No,No,6,144,Yes,Asymptomatic,0
+49,Male,315.0,144.0,77,Former,Heavy,4,Yes,Yes,No,2,127,No,Atypical Angina,0
+54,Male,304.0,112.0,86,Former,Heavy,8,Yes,No,Yes,6,111,No,Asymptomatic,1
+26,Female,215.0,100.0,74,Never,Heavy,7,No,Yes,No,10,135,No,Atypical Angina,0
+28,Female,220.0,102.0,73,Current,Moderate,7,Yes,Yes,Yes,10,102,No,Typical Angina,0
+70,Female,346.0,110.0,62,Never,Heavy,1,Yes,Yes,No,8,130,Yes,Asymptomatic,1
+52,Male,248.0,159.0,76,Former,Moderate,9,No,Yes,Yes,2,152,Yes,Asymptomatic,1
+56,Female,269.0,111.0,86,Never,Heavy,5,No,Yes,Yes,10,120,No,Non-anginal Pain,1
+78,Female,334.0,145.0,76,Never,Heavy,6,No,No,No,10,196,Yes,Typical Angina,1
+79,Male,151.0,179.0,81,Never,Moderate,4,Yes,No,Yes,8,189,Yes,Asymptomatic,0
+60,Female,326.0,151.0,68,Former,Heavy,8,Yes,Yes,No,5,174,Yes,Atypical Angina,1
+53,Male,226.0,116.0,82,Current,Heavy,6,No,No,Yes,5,161,Yes,Asymptomatic,1
