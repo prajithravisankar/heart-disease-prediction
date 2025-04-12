@@ -71,6 +71,32 @@ Random Forest (tune n_estimators, max_depth).  Fangai Cheng choosed RandomizedSe
  Main Todo 5.2: Feature Importance
  Sub-todo 5.2.1: Plot feature importance for the best model.
  Sub-todo 5.2.2: Identify top 5 risk factors (e.g., Cholesterol, Age).
- Start at 2025.3.30
+
+ These are rusule after improve:
+ Best Parameters: {'n_estimators': 100, 'max_depth': 5}
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       122
+           1       1.00      0.99      0.99        78
+
+    accuracy                           0.99       200
+   macro avg       1.00      0.99      0.99       200
+weighted avg       1.00      0.99      0.99       200
+
+Confusion Matrix:
+ [[122   0]
+ [  1  77]]
+AUC-ROC: 1.0
+
+Top 5 Risk Factors:
+1. Age: 0.5688
+2. Cholesterol: 0.3024
+3. Blood Pressure: 0.0242
+4. Blood Sugar: 0.0239
+5. Heart Rate: 0.0205
+
+Process finished with exit code 0
+
  
 
