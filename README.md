@@ -48,8 +48,8 @@ heart-disease-prediction/
         - [x]  ~~`main`: Protected branch for final merges.~~
         - [x]  ~~`dev`: Shared development branch for daily work.~~
         - [x]  ~~`prajith-ravisankar`~~
-        - [x]   ~~`emilio santamaria`~~
-        - [ ] `fangai-cheng` teammate has to accept the invite from Github and create their branch to start contributions
+        - [ ]  `emilio-santamaria` teammate has to create their branch and confirm.
+        - [x] `lasombra7` teammate has to accept the invite from Github and create their branch to start contributions
 - [x]  ~~**Main Todo 1.2: Requirements Finalization**~~
     - [x]  ~~**Sub-todo 1.2.1**: Review the PDF requirements and start working on:~~
         ~~- Data cleaning steps (missing values, outliers).~~
@@ -72,13 +72,13 @@ heart-disease-prediction/
         - ~~Use **KNNImputer** or **IterativeImputer** for advanced imputation~~
     - [x]  ~~**Sub-todo 2.1.3**: Encode categorical variables:~~
         - ~~`Gender`: Male=0, Female=1.~~
-- [ ]  **Main Todo 2.2: Feature Engineering**
-    - [x]  ~~**Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).~~
-    - [x]  ~~**Sub-todo 2.2.2**: Scale numerical features:~~
-        - ~~Use **StandardScaler** (Z-score normalization) for algorithms like SVM or Logistic Regression.~~
-    - [x]  ~~**Sub-todo 2.2.3**: **Feature selection**:~~
-        - ~~Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.~~
-    - [x] ~~ **Sub-todo 2.2.4**: Save preprocessed data as `standardized_data.csv`.~~
+- ~~[x]  **Main Todo 2.2: Feature Engineering**~~
+    ~~- [x]  **Sub-todo 2.2.1**: Split data into features (`X`) and target (`y`).~~
+    ~~- [x]  **Sub-todo 2.2.2**: Scale numerical features:~~
+        ~~- Use **StandardScaler** (Z-score normalization) for algorithms like SVM or Logistic Regression.~~
+    ~~- [x]  **Sub-todo 2.2.3**: **Feature selection**:~~
+        ~~- Use **SelectKBest** or **RFE** (Recursive Feature Elimination) to reduce dimensionality.~~
+    - ~~[x]  **Sub-todo 2.2.4**: Save preprocessed data as `cleaned_data.csv`.~~
 
 ---
 
@@ -86,14 +86,46 @@ heart-disease-prediction/
 
 **Goal**: Generate insights and visualizations.
 
-- [x]  ~~**Main Todo 3.1: Univariate Analysis**~~
-    - [x]  ~~**Sub-todo 3.1.1**: Plot distributions for:~~
-        - ~~`Age`, `Cholesterol`, `Blood Pressure` (histograms).~~
-        -~~ `Heart Disease` (pie chart for class balance).~~
-    - [x]~~  **Sub-todo 3.1.2**: Document observations (e.g., "30% of patients have~~ ~~heart disease").~~
-- [ ]  **Main Todo 3.2: Bivariate/Multivariate Analysis**
-    - [ ]  **Sub-todo 3.2.1**: Correlation heatmap (features vs. `Heart Disease`).
-    - [ ]  **Sub-todo 3.2.2**: Boxplots for `Cholesterol` vs. `Heart Disease`.
-    - [ ]  **Sub-todo 3.2.3**: Pairplot for key features (e.g., `Age`, `Blood Pressure`).
+~~- [x]  **Main Todo 3.1: Univariate Analysis**~~
+    ~~- [x]  **Sub-todo 3.1.1**: Plot distributions for:~~
+        ~~- `Age`, `Cholesterol`, `Blood Pressure` (histograms).~~
+        ~~- `Heart Disease` (pie chart for class balance).~~
+    ~~- [x]  **Sub-todo 3.1.2**: Document observations (e.g., "30% of patients have heart disease").~~
+~~- [x]  **Main Todo 3.2: Bivariate/Multivariate Analysis**~~
+    ~~- [x]  **Sub-todo 3.2.1**: Correlation heatmap (features vs. `Heart Disease`).~~
+    ~~- [x]  **Sub-todo 3.2.2**: Boxplots for `Cholesterol` vs. `Heart Disease`.~~
+    ~~- [x]  **Sub-todo 3.2.3**: Pairplot for key features (e.g., `Age`, `Blood Pressure`).~~
+
+---
+
+### **Phase 4: Model Development (March 18–20)**
+
+**Goal**: Train and compare baseline models.
+
+- ~~[x]  **Main Todo 4.1: Model Training**~~
+    - [x]  ~~**Sub-todo 4.1.1**: Train 3 models:~~
+        - ~~Logistic Regression.~~
+        - ~~Random Forest.~~
+        - ~~XGBoost.~~
+    - [x]  ~~**Sub-todo 4.1.2**: Use `train_test_split` (80-20 split).~~
+- [x]  ~~**Main Todo 4.2: Baseline Evaluation**~~
+    - [x]  ~~**Sub-todo 4.2.1**: Calculate metrics:~~
+        - ~~Accuracy, Precision, Recall, F1-score, AUC-ROC.~~
+    - [x]  ~~**Sub-todo 4.2.2**: Document results in a shared spreadsheet.~~
+
+---
+
+### **Phase 5: Model Optimization (March 21–22)**
+
+**Goal**: Improve model performance.
+
+~~- [x]  **Main Todo 5.1: Hyperparameter Tuning**~~
+    ~~- [x]  **Sub-todo 5.1.1**: Use `GridSearchCV` or `RandomizedSearchCV` for:~~
+        ~~- Random Forest (tune `n_estimators`, `max_depth`).~~
+        ~~- XGBoost (tune `learning_rate`, `max_depth`).~~
+    ~~- [x]  **Sub-todo 5.1.2**: Re-evaluate metrics post-tuning.~~
+~~- [x]  **Main Todo 5.2: Feature Importance**~~
+    ~~- [x]  **Sub-todo 5.2.1**: Plot feature importance for the best model.~~
+    ~~- [x]  **Sub-todo 5.2.2**: Identify top 5 risk factors (e.g., `Cholesterol`, `Age`).~~
 
 ---
